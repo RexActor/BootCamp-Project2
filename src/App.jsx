@@ -8,6 +8,7 @@ import Team from './pages/Team';
 import Home from './pages/Home';
 //import Jobs from './pages/Jobs';
 import Footer from './components/Footer';
+import JobCard from './components/JobCard.jsx';
 
 function App() {
       return (
@@ -19,9 +20,9 @@ function App() {
         <Route path="/" element={<Home />} />        
        {/*<Route path="jobs/*" element={<Jobs />} />*/}
        </Routes> 
+        <JobCard />
         <Footer />
           </Router>
       );
 }
-
 export default App;
