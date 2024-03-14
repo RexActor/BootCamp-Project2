@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import About from './components/pages/About';
-import Team from './components/pages/Team';
-import Home from './components/pages/Home';
-import Jobs from './components/pages/Jobs';
+import About from './pages/About';
+import Team from './pages/Team';
+import Home from './pages/Home';
+import Jobs from './pages/Jobs';
 import Footer from './components/Footer';
 
 function App() {
