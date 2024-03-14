@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import JobCard from "./components/JobCard.jsx";
 import SearchResult from "./components/SearchResult.jsx";
+
 // import LocationAutocomplete from './components/LocationAutocomplete';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       </Routes>
       {/* <LocationAutocomplete /> */}
       <SearchResult />
+
       <JobCard />
       <Footer />
     </Router>
