@@ -26,6 +26,7 @@ module.exports = {
   plugins: [
     require('tailwindcss'),
     require('autoprefixer'),
+    'prettier-plugin-tailwindcss',
   ],
 }
 
