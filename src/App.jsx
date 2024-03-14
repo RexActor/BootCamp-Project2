@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+//import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 //import Navbar from './components/Navbar';
 //import Header from './components/Header';
@@ -7,13 +7,13 @@ import './App.css';
 //import Team from './pages/Team';
 //import Home from './pages/Home';
 //import Jobs from './pages/Jobs';
+
 //import Footer from './components/Footer';
 import JobCard from './components/JobCard.jsx';
 
 function App() {
   return (
     <JobCard />
-
   );
   //(
   //  <Router>
@@ -31,6 +31,7 @@ function App() {
   //    <Footer />
   //  </Router>
   // );
+
 }
 
 export default App;
