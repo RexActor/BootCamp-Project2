@@ -13,18 +13,10 @@ const job = {
     salary_max: 120000
 };
 
-const JobCard = ({ job }) => {
+const JobCard = (job) => {
     return (
         <div className="flex flex-col justify-between">
-            <div>
-                <h3 className="text-xl mb-2">Job title: {job.title}</h3>
-                <p className="bg-indigo-900">Company name: {job.company.display_name}</p>
-                <p className="bg-indigo-900">Location: {job.location.display_name}</p>
-                <p className="bg-indigo-900">Job Salary: £{job.salary_min}-£{job.salary_max}</p>
-            </div>
-            <div className="flex justify-end items-center mt-4">
-
-            </div>
+            
         </div>
     );
 
