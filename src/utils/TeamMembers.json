@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Qingqing Yang",
+        "image": "",
+        "role": "",
+        "github": "https://github.com/"
+      },
+      {
+        "id": 2,
+        "name": "Francis Wilkinson",
+        "image": "",
+        "role": "",
+        "github": "https://github.com/franciswilkinson"
+      },
+      {
+        "id": 3,
+        "name": "Gatis Jansons",
+        "image": "",
+        "role": "",
+        "github": "https://github.com/RexActor"
+      },
+      {
+        "id": 4,
+        "name": "Simin Anaraki",
+        "image": "",
+        "role": "",
+        "github": "https://github.com/SiminAnaraki"
+      },
+      {
+        "id": 5,
+        "name": "Caleb Jordan",
+        "image": "",
+        "role": "",
+        "github": "https://github.com/calebtkjordan"
+      },
+      {
+        "id": 6,
+        "name": "Sumaiya Zulfikar",
+        "image": "",
+        "role": "",
+        "github": "https://github.com/sumzulfikar"
+      }
+]
