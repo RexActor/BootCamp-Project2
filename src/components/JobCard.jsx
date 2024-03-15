@@ -19,12 +19,12 @@ const JobCard = () => {
         <>
             <div><h2 className=" bg-slate-100 text-left text-lg text-slate-900 min-w-min">{jobData.length} jobs </h2></div>
 
-            <div className="max-w-screen-xl w-full flex flex-wrap justify-start">
+            <div className="max-w-screen-lg w-full flex flex-wrap justify-center pl-40">
                 {jobAds.map((job) => (
 
-                    <div className="col col-span-4 justify-center max-w-sm rounded overflow-hidden shadow-lg  gap-5 m-2">
+                    <div className="col col-span-6 justify-center max-w-sm rounded overflow-hidden shadow-lg gap-10 m-2">
                         <div className="flex  justify-center py-11  ">
-                            <div className="card  rounded-3xl w-[25rem] m-2">
+                            <div className="card  px-4 rounded-3xl w-[25rem] m-2">
                                 <h3 className=" text-left text-xl font-medium text-slate-950 "> {job.title}</h3>
                                 <div>
                                     <p className="  text-sm text-gray-700">{job.company.display_name}</p>
