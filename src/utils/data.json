@@ -1,0 +1,1643 @@
+[
+  {
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTk3MzY0NTI2In0.K0ZdyhqUML9GRxACt5IkjVDHceA9RCCiEc0FoVu0-Gc",
+    "longitude": 0.627374,
+    "salary_is_predicted": "0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4597364526?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=8DFF605403CCC506206B3FBCAB16FE5BE862E4F6",
+    "id": "4597364526",
+    "latitude": 52.443506,
+    "salary_min": 50000,
+    "category": {
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "description": "Company Bus Service from Norwich, Attleborough, Wymondham and Thetford Centre Exclusive 2 Sisters employee discount - offering savings of up to 60% with brands including Asda, Morrisons, Marks and Spencer and Tesco. 50% off your total bill in all of our group restaurant brands Cycle to Work Scheme Free onsite parking Hot food available on site plus free hot drinks Employee of the Month awards Fantastic development opportunities available for promotion and career development In-house training We\u2026",
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "2 Sisters Food Group"
+    },
+    "salary_max": 50000,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2024-03-07T16:23:48Z",
+    "title": "Factory Engineer",
+    "location": {
+      "display_name": "Weeting, Brandon",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Eastern England",
+        "Suffolk",
+        "Brandon",
+        "Weeting"
+      ]
+    }
+  },
+  {
+    "salary_min": 50000,
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs"
+    },
+    "description": "Company Bus Service from Norwich, Attleborough, Wymondham and Thetford Centre Exclusive 2 Sisters employee discount - offering savings of up to 60% with brands including Asda, Morrisons, Marks and Spencer and Tesco. 50% off your total bill in all of our group restaurant brands Cycle to Work Scheme Free onsite parking Hot food available on site plus free hot drinks Employee of the Month awards Fantastic development opportunities available for promotion and career development In-house training We\u2026",
+    "company": {
+      "display_name": "2 Sisters Food Group",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_max": 50000,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Multi skilled Engineer",
+    "created": "2024-03-07T16:23:52Z",
+    "location": {
+      "display_name": "Weeting, Brandon",
+      "area": [
+        "UK",
+        "Eastern England",
+        "Suffolk",
+        "Brandon",
+        "Weeting"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU5NzM2NDYxOSIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.BB_wvbTNNmHn4AsoikOGPLeQO5Jwg5y8LqYq3loNLnU",
+    "longitude": 0.627374,
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4597364619?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=C80616FB11BFDF56E23885FD534977E8DF414658",
+    "salary_is_predicted": "0",
+    "id": "4597364619",
+    "latitude": 52.443506
+  },
+  {
+    "salary_max": 50000,
+    "title": "Multi-skilled Engineer",
+    "created": "2024-03-07T16:23:48Z",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Eastern England",
+        "Cambridgeshire",
+        "Wisbech",
+        "Upwell"
+      ],
+      "display_name": "Upwell, Wisbech"
+    },
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_min": 50000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "2 Sisters Food Group"
+    },
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "description": "Company Bus Service from Norwich, Attleborough, Wymondham and Thetford Centre Exclusive 2 Sisters employee discount - offering savings of up to 60% with brands including Asda, Morrisons, Marks and Spencer and Tesco. 50% off your total bill in all of our group restaurant brands Cycle to Work Scheme Free onsite parking Hot food available on site plus free hot drinks Employee of the Month awards Fantastic development opportunities available for promotion and career development In-house training We\u2026",
+    "id": "4597364524",
+    "latitude": 52.591033,
+    "salary_is_predicted": "0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4597364524?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=29BA3BEEE606EFA504E3435D5C5B20B96FE8D169",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU5NzM2NDUyNCIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.LWZhSFviUfwIqhjlmM52IyoQJw8j32uf4W8BwRXVWN4",
+    "longitude": 0.226951
+  },
+  {
+    "salary_is_predicted": "0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4597364643?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=03D39AD0084740BA72D5CDA24958166C19D620A6",
+    "id": "4597364643",
+    "latitude": 52.640771,
+    "longitude": 1.259946,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU5NzM2NDY0MyIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.4HN1GKPCWDOdlFGvQE1TaEB3v5LVIo3lRh1wMBdgvW4",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2024-03-07T16:23:53Z",
+    "title": "Multi-skilled Engineer",
+    "location": {
+      "display_name": "West Pottergate, Norwich",
+      "area": [
+        "UK",
+        "Eastern England",
+        "Norfolk",
+        "Norwich",
+        "West Pottergate"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "salary_max": 50000,
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs"
+    },
+    "description": "Company Bus Service from Norwich, Attleborough, Wymondham and Thetford Centre Exclusive 2 Sisters employee discount - offering savings of up to 60% with brands including Asda, Morrisons, Marks and Spencer and Tesco. 50% off your total bill in all of our group restaurant brands Cycle to Work Scheme Free onsite parking Hot food available on site plus free hot drinks Employee of the Month awards Fantastic development opportunities available for promotion and career development In-house training We\u2026",
+    "company": {
+      "display_name": "2 Sisters Food Group",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 50000
+  },
+  {
+    "salary_max": 50000,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2024-03-07T16:23:52Z",
+    "title": "Multi-skilled Engineer",
+    "location": {
+      "area": [
+        "UK",
+        "Eastern England",
+        "Suffolk",
+        "Bury St. Edmunds"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Bury St. Edmunds, Suffolk"
+    },
+    "salary_min": 50000,
+    "description": "Company Bus Service from Norwich, Attleborough, Wymondham and Thetford Centre Exclusive 2 Sisters employee discount - offering savings of up to 60% with brands including Asda, Morrisons, Marks and Spencer and Tesco. 50% off your total bill in all of our group restaurant brands Cycle to Work Scheme Free onsite parking Hot food available on site plus free hot drinks Employee of the Month awards Fantastic development opportunities available for promotion and career development In-house training We\u2026",
+    "category": {
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "company": {
+      "display_name": "2 Sisters Food Group",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_is_predicted": "0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4597364613?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=08149B0C01CE0D8408382EB337C72EE74A5E26D6",
+    "id": "4597364613",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU5NzM2NDYxMyIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.ioyhjnnvuWEuTpYgmmmFEOoG0oMPqVV3kOAX_HD1X9g"
+  },
+  {
+    "company": {
+      "display_name": "2 Sisters Food Group",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "description": "Company Bus Service from Norwich, Attleborough, Wymondham and Thetford Centre Exclusive 2 Sisters employee discount - offering savings of up to 60% with brands including Asda, Morrisons, Marks and Spencer and Tesco. 50% off your total bill in all of our group restaurant brands Cycle to Work Scheme Free onsite parking Hot food available on site plus free hot drinks Employee of the Month awards Fantastic development opportunities available for promotion and career development In-house training We\u2026",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs"
+    },
+    "salary_min": 50000,
+    "created": "2024-03-07T16:23:53Z",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Eastern England",
+        "Norfolk",
+        "Wymondham",
+        "Suton"
+      ],
+      "display_name": "Suton, Wymondham"
+    },
+    "title": "Multi-skilled Engineer",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 50000,
+    "longitude": 1.105291,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU5NzM2NDY0MSIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0._bKZHIS1PvaJC70IjSLcZRNbejll_4uokb_ssjJFUx0",
+    "latitude": 52.570521,
+    "id": "4597364641",
+    "salary_is_predicted": "0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4597364641?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=5EE266C9C028CEB437D916FB248E042E6B119400"
+  },
+  {
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU5NzM2NDYxNCIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.VH5PglEeHta_zpdC_IvWKpt8rQ3yaxQBtbui72x3MY0",
+    "longitude": 0.627374,
+    "id": "4597364614",
+    "latitude": 52.443506,
+    "salary_is_predicted": "0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4597364614?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=6ABAF51E87343E4A01AF1AB8A05363351294FD8B",
+    "salary_min": 50000,
+    "company": {
+      "display_name": "2 Sisters Food Group",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "description": "Company Bus Service from Norwich, Attleborough, Wymondham and Thetford Centre Exclusive 2 Sisters employee discount - offering savings of up to 60% with brands including Asda, Morrisons, Marks and Spencer and Tesco. 50% off your total bill in all of our group restaurant brands Cycle to Work Scheme Free onsite parking Hot food available on site plus free hot drinks Employee of the Month awards Fantastic development opportunities available for promotion and career development In-house training We\u2026",
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "salary_max": 50000,
+    "created": "2024-03-07T16:23:52Z",
+    "title": "Multi-Skilled Maintenance Engineer",
+    "location": {
+      "display_name": "Weeting, Brandon",
+      "area": [
+        "UK",
+        "Eastern England",
+        "Suffolk",
+        "Brandon",
+        "Weeting"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "__CLASS__": "Adzuna::API::Response::Job"
+  },
+  {
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTk3MzY0NTIzIn0.1UgNGPPk0hJqaiZe74GpvbpKUgTjwvRqjs_ZjHVah8c",
+    "longitude": 0.627374,
+    "latitude": 52.443506,
+    "id": "4597364523",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4597364523?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=FB892849C2BE689DB5C96821FF66350FAD32B475",
+    "salary_is_predicted": "0",
+    "salary_min": 50000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "2 Sisters Food Group"
+    },
+    "category": {
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "description": "Company Bus Service from Norwich, Attleborough, Wymondham and Thetford Centre Exclusive 2 Sisters employee discount - offering savings of up to 60% with brands including Asda, Morrisons, Marks and Spencer and Tesco. 50% off your total bill in all of our group restaurant brands Cycle to Work Scheme Free onsite parking Hot food available on site plus free hot drinks Employee of the Month awards Fantastic development opportunities available for promotion and career development In-house training We\u2026",
+    "salary_max": 50000,
+    "created": "2024-03-07T16:23:48Z",
+    "title": "Electrical Multi Skilled Engineer",
+    "location": {
+      "display_name": "Weeting, Brandon",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Eastern England",
+        "Suffolk",
+        "Brandon",
+        "Weeting"
+      ]
+    },
+    "__CLASS__": "Adzuna::API::Response::Job"
+  },
+  {
+    "company": {
+      "display_name": "2 Sisters Food Group",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs"
+    },
+    "description": "Company Bus Service from Norwich, Attleborough, Wymondham and Thetford Centre Exclusive 2 Sisters employee discount - offering savings of up to 60% with brands including Asda, Morrisons, Marks and Spencer and Tesco. 50% off your total bill in all of our group restaurant brands Cycle to Work Scheme Free onsite parking Hot food available on site plus free hot drinks Employee of the Month awards Fantastic development opportunities available for promotion and career development In-house training We\u2026",
+    "salary_min": 50000,
+    "title": "Engineer - \u00a350,000 pa",
+    "created": "2024-03-07T16:23:52Z",
+    "location": {
+      "display_name": "Weeting, Brandon",
+      "area": [
+        "UK",
+        "Eastern England",
+        "Suffolk",
+        "Brandon",
+        "Weeting"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 50000,
+    "longitude": 0.627374,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTk3MzY0NjE1In0.5ltnoBqh4ftAUG4y_9sX2DvtEjsWL8mhc5B30v8EOkk",
+    "id": "4597364615",
+    "latitude": 52.443506,
+    "salary_is_predicted": "0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4597364615?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=A0735353221D1732A7C5801744FFDDB594D60C98"
+  },
+  {
+    "longitude": 0.627374,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTk3MzY0NTIyIn0.ExrP8IOZuDHBTm39TW5jy1WyxMyMbA3I9nEp5SrPQZ8",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4597364522?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=57DCFA3B452357B05EDD2CE0AE2E868A7BAE827C",
+    "salary_is_predicted": "0",
+    "latitude": 52.443506,
+    "id": "4597364522",
+    "description": "Company Bus Service from Norwich, Attleborough, Wymondham and Thetford Centre Exclusive 2 Sisters employee discount - offering savings of up to 60% with brands including Asda, Morrisons, Marks and Spencer and Tesco. 50% off your total bill in all of our group restaurant brands Cycle to Work Scheme Free onsite parking Hot food available on site plus free hot drinks Employee of the Month awards Fantastic development opportunities available for promotion and career development In-house training We\u2026",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs"
+    },
+    "company": {
+      "display_name": "2 Sisters Food Group",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 50000,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Multi-Skilled Engineer Electrical bias",
+    "created": "2024-03-07T16:23:48Z",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Eastern England",
+        "Suffolk",
+        "Brandon",
+        "Weeting"
+      ],
+      "display_name": "Weeting, Brandon"
+    },
+    "salary_max": 50000
+  },
+  {
+    "created": "2024-02-29T13:47:47Z",
+    "location": {
+      "area": [
+        "UK",
+        "North West England",
+        "Greater Manchester",
+        "Manchester"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Manchester, Greater Manchester"
+    },
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 31802.65,
+    "contract_time": "full_time",
+    "company": {
+      "display_name": "Johnson Controls International",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "IT Jobs",
+      "tag": "it-jobs"
+    },
+    "salary_min": 31802.65,
+    "latitude": 53.480701,
+    "id": "4586346968",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4586346968?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=5F4CDB546B58D430025E76DBBF8BEA7714CAD369",
+    "title": "Installation Engineer",
+    "description": "Position: Security Installation Engineer, CCTV, Access & Intruder - North West Join our team as an Installation Engineer and embark on an exciting journey covering a vibrant patch in the North West. You'll be the superhero for our commercial clients, ensuring their security systems are in top-notch condition. What you'll be doing: Our Installation Engineers are involved in installing Security Systems i.e. Intruder Alarms, Access Systems and CCTV. The successful engineers will install Security s\u2026",
+    "salary_is_predicted": "1",
+    "longitude": -2.23438,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU4NjM0Njk2OCIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.W8QWRikhtcTJGPZJ1T75PI1JQGpc9xVuWpUmG-qi4YU"
+  },
+  {
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "location": {
+      "area": [
+        "UK",
+        "Yorkshire And The Humber",
+        "West Yorkshire",
+        "Leeds"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Leeds, West Yorkshire"
+    },
+    "created": "2024-02-09T14:18:23Z",
+    "salary_max": 34112.43,
+    "contract_time": "full_time",
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "company": {
+      "display_name": "Johnson Controls International",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 34112.43,
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4563926532?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=5E87E6700DAE4DB7DB93AF7BC77396DA16AB93D6",
+    "id": "4563926532",
+    "latitude": 53.799599,
+    "title": "Installation Engineer",
+    "description": "Johnson controls \u2013 A global Market Leading Engineering & Integrated Solutions company. They are the leader in the Fire & Security sector with their cutting edge technology. As a business Johnson control owns a portfolio of fire & security brands including: Tyco, ADT, WOT, Esotec & more. This position is working for our ADT brand . At ADT we are passionate about making a positive impact on the lives of people all over the world. How do we do this? By working together to provide the most advanced\u2026",
+    "salary_is_predicted": "1",
+    "longitude": -1.54912,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU2MzkyNjUzMiIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.icthOv8KpgUbjrdc4DOnZn0E7YAOV1m1haDQY0RsoVs"
+  },
+  {
+    "latitude": 53.480701,
+    "id": "4586346969",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4586346969?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=87995FABC5F0EE92EAC772372EEA06985C799C05",
+    "salary_max": 34051.22,
+    "contract_time": "full_time",
+    "location": {
+      "area": [
+        "UK",
+        "North West England",
+        "Greater Manchester",
+        "Manchester"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Manchester, Greater Manchester"
+    },
+    "created": "2024-02-29T13:47:47Z",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_min": 34051.22,
+    "company": {
+      "display_name": "Johnson Controls International",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs"
+    },
+    "salary_is_predicted": "1",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTg2MzQ2OTY5In0.gws-lD6FJxAa-0YJJYSeb8BYtcoMmT61nt-SSnlh-ts",
+    "longitude": -2.23438,
+    "title": "Installation Engineer",
+    "description": "Johnson controls \u2013 A global Market Leading Engineering & Integrated Solutions company. They are the leader in the Fire & Security sector with their cutting edge technology. As a business Johnson control owns a portfolio of fire & security brands including: Tyco, ADT, WOT, Esotec & more. This position is working for our ADT brand in the Republic of Ireland. At ADT we are passionate about making a positive impact on the lives of people all over the world. How do we do this? By working together to\u2026"
+  },
+  {
+    "contract_time": "full_time",
+    "salary_max": 42964.44,
+    "created": "2024-02-27T20:31:15Z",
+    "title": "Firmware Engineer",
+    "location": {
+      "display_name": "Belfast, Northern Ireland",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "Belfast"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_min": 42964.44,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Johnson Controls International"
+    },
+    "description": "What you will do Working as part of a multi-disciplinary team with firmware, hardware & quality assurance engineers in Johnson Controls, and with 3rd party companies, to develop, enhance and test a wide range of Illustra IP cameras. Reporting to the Illustra Firmware Manager, the candidate will work three days in the office and will support the team in hitting time to market and quality milestones; allowing the Illustra team to successfully meet revenue targets. The Illustra brand has been grow\u2026",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs",
+      "label": "IT Jobs"
+    },
+    "id": "4584202879",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4584202879?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=66C78D7301CC6DD2E395D8F5D18A5B08E2BDDCBD",
+    "salary_is_predicted": "1",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU4NDIwMjg3OSIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.qfhaFpPPLFp_1IvqaCedKTvTHnp0xcThSjF586ES3ew"
+  },
+  {
+    "created": "2023-12-02T10:23:53Z",
+    "location": {
+      "display_name": "Bradford, West Yorkshire",
+      "area": [
+        "UK",
+        "Yorkshire And The Humber",
+        "West Yorkshire",
+        "Bradford"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 39521.29,
+    "contract_time": "full_time",
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Powell Industries"
+    },
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "IT Jobs",
+      "tag": "it-jobs"
+    },
+    "salary_min": 39521.29,
+    "id": "4461284540",
+    "latitude": 53.7939,
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4461284540?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=C4C89EAA5B32CC95550A6B9C91DBA653DB8597C6",
+    "title": "Software Engineer",
+    "description": "Assist the Lead Software Engineer in formulating and executing plans for the design and development of software for embedded and PC based platforms. This will include new products and enhancements to existing products. With the Lead Software Engineer, monitor and report on progress of allocated tasks, on a monthly basis or as appropriate, ensuring that these are carried out within agreed timescales. Generate and maintain detailed technical documents as required during the course of product deve\u2026",
+    "salary_is_predicted": "1",
+    "longitude": -1.75244,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDQ2MTI4NDU0MCIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.kjEy7FzRG_ud22YZOnhbbX--XfNd2LdjTqjDBfB4P-s"
+  },
+  {
+    "description": "Johnson controls \u2013 A global Market Leading Engineering & Integrated Solutions company. They are the leader in the Fire & Security sector with their cutting edge technology. As a business Johnson control owns a portfolio of fire & security brands including: Tyco, ADT, WOT, Esotec & more. This position is working for our ADT brand. At ADT we are passionate about making a positive impact on the lives of people all over the world. How do we do this? By working together to provide the most advanced \u2026",
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Johnson Controls International"
+    },
+    "salary_min": 36607.1,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Commissioning and Installation engineer",
+    "created": "2024-02-01T07:43:20Z",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "West Midlands",
+        "Birmingham"
+      ],
+      "display_name": "Birmingham, West Midlands"
+    },
+    "salary_max": 36607.1,
+    "contract_time": "full_time",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTUxOTAxNDc3In0.-B0BPiW9pbYieV6dBoufyscfDRLLprg5E0oh8B_CKl0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4551901477?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=B6B7B2B5BF08CF5489D2ADD762297F2D9EB52B01",
+    "salary_is_predicted": "1",
+    "id": "4551901477"
+  },
+  {
+    "salary_is_predicted": "1",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4563926654?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=29D767890396D5683F30DAA066D6E8384E9A86C2",
+    "id": "4563926654",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTYzOTI2NjU0In0.HZGCERZyGh_NC4awecjl6hNAvWbJD8VHBYlnVKrCwBg",
+    "salary_max": 37756.17,
+    "contract_time": "full_time",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Fire Commissioning Engineer",
+    "created": "2024-02-09T14:18:25Z",
+    "location": {
+      "display_name": "Birmingham, West Midlands",
+      "area": [
+        "UK",
+        "West Midlands",
+        "Birmingham"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "salary_min": 37756.17,
+    "description": "Johnson controls \u2013 A global Market Leading Engineering & Integrated Solutions company. They are the leader in the Fire & Security sector with their cutting edge technology. As a business Johnson control owns a portfolio of fire & security brands including: Tyco, ADT, WOT, Esotec & more. This position is working for our ADT brand . At ADT we are passionate about making a positive impact on the lives of people all over the world. How do we do this? By working together to provide the most advanced\u2026",
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "company": {
+      "display_name": "Johnson Controls International",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    }
+  },
+  {
+    "id": "4592527357",
+    "salary_is_predicted": "1",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4592527357?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=1EDE452D5788044590B0EFF74F0CC9A351637C4F",
+    "contract_type": "contract",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU5MjUyNzM1NyIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.ekIXzMP2fwAlfD6N2XSUa6XysxusqO1HWr19aaGeT_0",
+    "title": "Graduate Compliance Engineer",
+    "created": "2024-03-04T23:58:02Z",
+    "location": {
+      "area": [
+        "UK"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "UK"
+    },
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 33414.21,
+    "contract_time": "full_time",
+    "company": {
+      "display_name": "CSL Seqirus",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "description": "Come join our company that tackles fascinating problems and find solutions to complex challenges. With deep expertise in influenza science, our team works on cutting-edge research, pioneering technologies to optimise the manufacturing process and improve the effectiveness of influenza vaccines. We operate as one integrated global organisation, drawing together expert staff from different countries to collaborate. Together, we are working on the front line to protect communities from seasonal in\u2026",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Graduate Jobs",
+      "tag": "graduate-jobs"
+    },
+    "salary_min": 33414.21
+  },
+  {
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Electronic Design Engineer",
+    "created": "2024-03-14T17:20:56Z",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Scotland",
+        "Fife",
+        "Lochgelly",
+        "Kinglassie"
+      ],
+      "display_name": "Kinglassie, Lochgelly"
+    },
+    "salary_max": 40012.1,
+    "category": {
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "description": "Be one of the bold and engineer advanced networks with us How You'll Help Us Connect The World: The Electronic Design Engineer will be a member of our RF Engineering team based out of our Scottish office in Fife. You will be responsible for the development of new designs and cost optimization of the existing products for local manufacture. Candidates must be able to provide real time solutions to design issues discovered in the manufacturing process and recommend/document the resolution. Also, \u2026",
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "CommScope"
+    },
+    "salary_min": 40012.1,
+    "salary_is_predicted": "1",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4607355488?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=098036579CF36C736D7F4FC4D0F7749CE27B49A7",
+    "id": "4607355488",
+    "latitude": 56.16748,
+    "longitude": -3.221666,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NjA3MzU1NDg4In0.TWOzkxreYwIkOwnZDbA7KsejFgLSuzgbQ8bhK0d40vg"
+  },
+  {
+    "salary_min": 49443.18,
+    "description": "What you will do Working as part of a multi-disciplinary team with firmware, hardware & quality assurance engineers in JCI, and with 3rd party companies, to develop, enhance and test a wide range of Illustra IP cameras. Reporting to the Illustra Firmware manager, the Senior Firmware Engineer will support the team in hitting time to market and quality milestones; allowing the Illustra team to successfully meet revenue targets. The Illustra brand has been growing year on year, consistently meetin\u2026",
+    "category": {
+      "label": "IT Jobs",
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Johnson Controls International"
+    },
+    "contract_time": "full_time",
+    "salary_max": 49443.18,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Senior Firmware Engineer",
+    "created": "2024-02-27T20:31:17Z",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "Belfast"
+      ],
+      "display_name": "Belfast, Northern Ireland"
+    },
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTg0MjAyODk2In0.bbEPzMrSBr5WVUpu5fSQM0x_TTOSPDRtQa7gdAc83gI",
+    "salary_is_predicted": "1",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4584202896?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=A272E8789D29195FFEB50D7F635897EDAEA06592",
+    "id": "4584202896"
+  },
+  {
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Embedded Software Engineer",
+    "created": "2024-02-27T20:31:13Z",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "Belfast"
+      ],
+      "display_name": "Belfast, Northern Ireland"
+    },
+    "contract_time": "full_time",
+    "salary_max": 44035.35,
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs",
+      "label": "IT Jobs"
+    },
+    "description": "What you will do Working as part of a multi-disciplinary team with firmware, hardware & quality assurance engineers in Johnson Controls, and with 3rd party companies, to develop, enhance and test a wide range of Illustra IP cameras. Reporting to the Illustra Firmware Manager, the candidate will work three days in the office and will support the team in hitting time to market and quality milestones; allowing the Illustra team to successfully meet revenue targets. The Illustra brand has been grow\u2026",
+    "company": {
+      "display_name": "Johnson Controls International",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 44035.35,
+    "salary_is_predicted": "1",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4584202862?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=1E514ECDEE8990FB2B1AD61F845A5842084159F4",
+    "id": "4584202862",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU4NDIwMjg2MiIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.l72KWMAeJPAf8r6WTWZz5ZFIA20Xts25aX3WGQWF-90"
+  },
+  {
+    "title": "Quality Inspector",
+    "description": "Your new company A successful manufacturing company who specialises in the design, supply, and installation of a wide range of prefabricated solutions for clients in Ireand and UK. Due to their increased orders and new contracts they are growing their quality team. Your new role As Quality Inspector you will ensure production units match all approved drawings and specifications and monitor operations to ensure that they meet production standards. You will recommend adjustments to the assembly o\u2026",
+    "salary_is_predicted": "0",
+    "longitude": -6.26702,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NjAxNjMzMDAxIn0.Ij3CYKLED4drhhsATyvn2eTbMPfohnNY5gj0ivtasQ0",
+    "created": "2024-03-10T11:36:31Z",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "County Down",
+        "Banbridge"
+      ],
+      "display_name": "Banbridge, County Down"
+    },
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 30000,
+    "company": {
+      "display_name": "Engineering",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "salary_min": 30000,
+    "id": "4601633001",
+    "latitude": 54.351002,
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4601633001?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=DD7CC859DF57F2128276EB855304DB7CB5A306B2",
+    "contract_type": "permanent"
+  },
+  {
+    "salary_is_predicted": "1",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU1NzkwMjkyOSIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.zcEeVvjLBwyv_EBfWDFwTTJ1XFyucqrYeOSs0zN8cug",
+    "longitude": -2.119429,
+    "title": "Engineer",
+    "description": "Job Description Location: Rowley Hall Hospital Hours: 37.5 per week, Full-time Salary: Depending on experience  Benefits Rowley Hall Hospital are currently recruiting for a Hospital Engineer to join the team. The working shifts are Monday to Friday and candidates applying are expected to have a level of flexibility as we have out of hours on-call included 1 in every 3 weeks. What you'll do Ensure legal compliance through planned preventative maintenance and reactive works across site The provis\u2026",
+    "id": "4557902929",
+    "latitude": 52.805432,
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4557902929?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=9063655EE4A275DA72C0291E36347756028AC5D3",
+    "salary_max": 31524.99,
+    "contract_time": "full_time",
+    "location": {
+      "area": [
+        "UK",
+        "West Midlands",
+        "Staffordshire",
+        "Stafford",
+        "Hyde Lea"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Hyde Lea, Stafford"
+    },
+    "created": "2024-02-05T11:15:39Z",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_min": 31524.99,
+    "company": {
+      "display_name": "Ramsay Health Care",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "category": {
+      "label": "Healthcare & Nursing Jobs",
+      "tag": "healthcare-nursing-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    }
+  },
+  {
+    "description": "Position: Security Installation Engineer, CCTV, Access & Intruder - Inverness Join our team as an Installation Engineer and embark on an exciting journey covering a vibrant patch in Inverness. You'll be the superhero for our commercial clients, ensuring their security systems are in top-notch condition. What you'll be doing: Our Installation Engineers are involved in installing Security Systems i.e. Intruder Alarms, Access Systems and CCTV. The successful engineers will install Security systems\u2026",
+    "title": "Installation Engineer Security, Inverness",
+    "longitude": -2.0954,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTYzOTI2NjMyIn0.v48z0uBAoCI-TsWal-K7fZYkeOoEGIECt_Of53WxrEI",
+    "salary_is_predicted": "1",
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Johnson Controls International"
+    },
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs",
+      "label": "IT Jobs"
+    },
+    "salary_min": 31326.17,
+    "location": {
+      "display_name": "Aberdeen, Aberdeenshire",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Scotland",
+        "Aberdeenshire",
+        "Aberdeen"
+      ]
+    },
+    "created": "2024-02-09T14:18:25Z",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 31326.17,
+    "contract_time": "full_time",
+    "latitude": 57.147499,
+    "id": "4563926632",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4563926632?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=0DD97C56C03221BDFC05EEA46B4DDE9E19A8A2D3"
+  },
+  {
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTYzOTI2NjUzIn0.e03Y1x3roQfpwsr_ZZvZlb-brSP9gLFDItM8lc3h-18",
+    "longitude": -2.0954,
+    "salary_is_predicted": "1",
+    "description": "Johnson controls \u2013 A global Market Leading Engineering & Integrated Solutions company. They are the leader in the Fire & Security sector with their cutting edge technology. As a business Johnson control owns a portfolio of fire & security brands including: Tyco, ADT, WOT, Esotec & more. This position is working for our ADT brand . At ADT we are passionate about making a positive impact on the lives of people all over the world. How do we do this? By working together to provide the most advanced\u2026",
+    "title": "Fire Commissioning Engineer Installation",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4563926653?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=99CE9117877369FCAAFBACC5AF839D3250233C61",
+    "id": "4563926653",
+    "latitude": 57.147499,
+    "salary_min": 37631.39,
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "company": {
+      "display_name": "Johnson Controls International",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_max": 37631.39,
+    "contract_time": "full_time",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2024-02-09T14:18:25Z",
+    "location": {
+      "area": [
+        "UK",
+        "Scotland",
+        "Aberdeenshire",
+        "Aberdeen"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Aberdeen, Aberdeenshire"
+    }
+  },
+  {
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Epsilon"
+    },
+    "description": "Job Description We're looking for a Full-stack Software Engineer to join our London team as part of the Experiences Squad - we want someone who thrives in a fast-paced environment, someone who wants to make a positive impact to their environment and someone with a mentality of self-growth and continuously strives to learn new things. Our Engineering team is a high performing, highly motivated and tech-enthusiastic team based in London. We ship code into production on a weekly basis; fostering a\u2026",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs",
+      "label": "IT Jobs"
+    },
+    "salary_min": 46471.06,
+    "title": "Software Engineer (Experiences Squad)",
+    "created": "2024-03-01T08:54:40Z",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "London"
+      ],
+      "display_name": "London, UK"
+    },
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 46471.06,
+    "longitude": -0.139134,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU4NzMxNTgwNyIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.9hqkfNM0WHd65aeIHV-wYG1J6Vhb8AVNYLxCY-WjDfA",
+    "latitude": 51.503378,
+    "id": "4587315807",
+    "salary_is_predicted": "1",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4587315807?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=ACD0CFFE97BEBD22E48E7E89B456BFA832FA06BA"
+  },
+  {
+    "salary_is_predicted": "1",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4587315803?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=1B1EFE9BFC908F53675ECE1670B8A32585BDD778",
+    "id": "4587315803",
+    "latitude": 51.503378,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU4NzMxNTgwMyIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.ek4AiE1k1hRclgnrk2Qp0yLtjUEzOPT7OKpW78OGh-U",
+    "longitude": -0.139134,
+    "salary_max": 51120.11,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Software Engineer (Intelligence Squad)",
+    "created": "2024-03-01T08:54:40Z",
+    "location": {
+      "display_name": "London, UK",
+      "area": [
+        "UK",
+        "London"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "salary_min": 51120.11,
+    "description": "Job Description We're looking to hire a Software Engineer into our Intelligence Squad - we want someone who thrives in a fast-paced environment, someone who wants to make a positive impact to their environment and someone with a mentality of self-growth and continuously strives to learn new things. Our Engineering team is a high performing, highly motivated and tech-enthusiastic team based in London. We ship code into production on a weekly basis; fostering a continuous delivery mentality, pair\u2026",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "IT Jobs",
+      "tag": "it-jobs"
+    },
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Epsilon"
+    }
+  },
+  {
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Design Engineer",
+    "created": "2023-12-22T12:04:59Z",
+    "location": {
+      "display_name": "Ballygawley, Dungannon",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "County Tyrone",
+        "Dungannon",
+        "Ballygawley"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "salary_max": 35000,
+    "category": {
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "description": "Design Engineer, Mechanical Design Engineer, Designer Your new company We are seeking to recruit a Design Engineer to join a leading heavy engineering company to join their dynamic team. With a commitment to excellence and innovation, our exclusive client delivers cutting-edge solutions for the manufacturing industry. Your new role As a Design Engineer , you will play a pivotal role in creating and refining designs for state-of-the-art equipment. Your responsibilities will include producing pre\u2026",
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Hays"
+    },
+    "salary_min": 35000,
+    "salary_is_predicted": "0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4492085801?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=5221408A29342F975AE953B670B915F2718DFC89",
+    "id": "4492085801",
+    "latitude": 54.459999,
+    "longitude": -7.02788,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NDkyMDg1ODAxIn0.sjdDpAia0SEK_h-Q9vBLgNiBKhqlfl7DjLnx6Z4bc2o"
+  },
+  {
+    "salary_is_predicted": "1",
+    "longitude": -1.4648,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTU2MjA3MzAzIn0.t3KOYJNLZhzg3w4S9Z7j-S_gQ3_mlC8d6ruxbMmH7wI",
+    "title": "Civil Engineer",
+    "description": "Civil Engineer - Freelance role in Sheffield, \u00a3400 - \u00a3500 per day PAYE or Umbrella Civil Engineer for bridge works based in Sheffield.Freelance role for 6  months Your new company Hays is currently recruiting a Civil Engineer to work on a bridge works project in Sheffield. We are working in partnership with a civil engineering company delivering innovative and sustainable engineering solutions across infrastructure. This client has been working in the sector for over 60 years, offering a wealth\u2026",
+    "latitude": 53.383099,
+    "id": "4556207303",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4556207303?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=3D66CD3571360B5A7A4577E1F6300130A468966B",
+    "contract_type": "contract",
+    "location": {
+      "display_name": "Sheffield, South Yorkshire",
+      "area": [
+        "UK",
+        "Yorkshire And The Humber",
+        "South Yorkshire",
+        "Sheffield"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "created": "2024-02-03T13:08:13Z",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 45035.96,
+    "contract_time": "full_time",
+    "company": {
+      "display_name": "Hays",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "salary_min": 45035.96
+  },
+  {
+    "id": "4438056932",
+    "salary_is_predicted": "1",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4438056932?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=C958E0B4204CAD8D554487712CC47BF3890BFD64",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDQzODA1NjkzMiIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.KzIvBvcR8k4iitMbhk3thlkp7GS1fNACsNv8Pi_iA-E",
+    "location": {
+      "display_name": "Chelmsford, Essex",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Eastern England",
+        "Essex",
+        "Chelmsford"
+      ]
+    },
+    "created": "2023-11-17T12:13:12Z",
+    "title": "Civil Engineer",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 34057.59,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Hays"
+    },
+    "category": {
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "description": "Civil Engineering role in Chelmsford for growing consultancy The Company: This is a leading engineering firm specialising in residential work based in Chelmsford with a reputation for excellence and innovation. We have been serving clients worldwide for over a decade. Their team of experts are committed to delivering cutting-edge solutions to their clients\\' engineering challenges. Job Summary: They are seeking a skilled civil engineer to join their dynamic team. As a civil engineer, you will b\u2026",
+    "salary_min": 34057.59
+  },
+  {
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "HAYS"
+    },
+    "salary_min": 35159.14,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2024-02-08T13:04:40Z",
+    "location": {
+      "display_name": "Dungannon, County Tyrone",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "County Tyrone",
+        "Dungannon"
+      ]
+    },
+    "salary_max": 35159.14,
+    "contract_time": "full_time",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4562651814?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=EBAA4C149C675C1055530379D7C19B2A28A39DAC",
+    "latitude": 54.5033,
+    "id": "4562651814",
+    "description": "Civil Engineer, Graduate civil engineer, experienced civil engineer in County Tyrone, Northern Ireland Your new company Hays Belfast are currently working in partnership with a small to medium-sized SME Engineering Consultancy company based in Dungannon area, County Tyrone to hire a Civil Engineer with design experience. This company provides Civil Engineering Design & Consultancy Services for multi-unit residential developments, working for some of the largest house developers and directly to \u2026",
+    "title": "Civil Engineer",
+    "longitude": -6.76964,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTYyNjUxODE0In0.DmvzcyQ2Y0aCPQzEcryKhfDI_bN9xZpW2Yy5lxjtzDk",
+    "salary_is_predicted": "1"
+  },
+  {
+    "company": {
+      "display_name": "Hays",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "description": "Design Engineer, Mid-Ulster, Leading employer Your new company We are currently seeking to recruit a talented and motivated Design Engineer to join our client, a leading engineering firm in Mid-Ulster. As a Design Engineer, your primary responsibility will be to transform research concepts into detailed designs suitable for production. Your expertise will play a crucial role in enhancing production efficiency and ensuring the highest standards of safety and quality in our commercial trailers. Y\u2026",
+    "category": {
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "salary_min": 30000,
+    "title": "Design Engineer",
+    "created": "2024-02-28T11:33:10Z",
+    "location": {
+      "display_name": "Magherafelt, Northern Ireland",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "Magherafelt"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 40000,
+    "longitude": -6.60603,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTg0ODIwNjY2In0.54KTvxafnGynUNlKY_cNni4B6K7XV_AYRr-xRGkprUA",
+    "latitude": 54.755402,
+    "id": "4584820666",
+    "salary_is_predicted": "0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4584820666?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=A2F66112A9BEF05627B7F81B00D646E6B5AF25A6"
+  },
+  {
+    "description": "Validation Engineer Basildon Salary-Dependent on experience Monday-Friday The company: Based in South Essex, you will be joining a purpose-built design and engineering premises for chemical manufacturing feeding into a wide range of industries. Due to continuous growth and expansion of the premises, they are now looking for a Validation Engineer to join their team. The role will involve working as part of a team to support Project Managers and Engineering Technicians on a variety of tasks. Once\u2026",
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Hays"
+    },
+    "salary_min": 39922.68,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Validation Engineer",
+    "created": "2023-12-02T13:52:37Z",
+    "location": {
+      "display_name": "Basildon, Essex",
+      "area": [
+        "UK",
+        "Eastern England",
+        "Essex",
+        "Basildon"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "salary_max": 39922.68,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDQ2MTc2MzI3MyIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.e7KBee4gowXU6DR8bfKdTQx8eXoC5bcoAAZxcjMpuyo",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4461763273?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=D13BDC84273D99B3E1E5990F8B4C547D03524022",
+    "salary_is_predicted": "1",
+    "id": "4461763273"
+  },
+  {
+    "id": "4534680310",
+    "latitude": 54.458199,
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4534680310?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=4C8D365E274E0C8688B2CA4FBBE8EA1AB11ED8D1",
+    "contract_type": "permanent",
+    "salary_max": 50000,
+    "location": {
+      "display_name": "Lurgan, Craigavon",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "Craigavon",
+        "Lurgan"
+      ]
+    },
+    "created": "2024-01-20T13:24:48Z",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_min": 42000,
+    "company": {
+      "display_name": "HAYS",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "salary_is_predicted": "0",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDUzNDY4MDMxMCIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.WUZA8byK65S5WFUV42ZlueUQNfiC-8BOdhfEoeuVoCs",
+    "longitude": -6.32285,
+    "title": "Maintenance Engineer",
+    "description": "Maintenance Engineer job Lurgan, \u00a342,000-\u00a350,000 shift job Your new company Maintenance Engineer on days with part of a UK wide brand manufacturer. As a leading specialist provider of their product to household brands they have perfected innovation and quality and continually invest to be best in market. Offering a permanent Multi Skilled Maintenance Engineer Job within FMCG for a multi skilled maintenance engineer. Your new role Joining the specialist engineering team on a shift basis to provi\u2026"
+  },
+  {
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTU2MjA3MzcyIn0.tQou0Mx1pH0X_O1By_uE_QVHhaLzovwELQ5vS-X06Ko",
+    "longitude": -6.66845,
+    "id": "4556207372",
+    "latitude": 55.132,
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4556207372?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=3265A67176CAC035DFB19D4948C7E59C7AE1520A",
+    "salary_is_predicted": "1",
+    "salary_min": 56300,
+    "company": {
+      "display_name": "HAYS",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "description": "Site Engineering Manager, large group in FMCG with fantastic packaging. Leading site engineering function Your new company Site Engineering Manager with an absolute global leader in food and beverage production and supplying high quality products to consistently to food servive and retail sectors. They continually review processes to ensure they lead innovation and deliver high quality and have sites across Europe and fantastic processes and standards in place. They have an opportunity for an i\u2026",
+    "category": {
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "salary_max": 56300,
+    "title": "Engineering Manager",
+    "created": "2024-02-03T13:08:21Z",
+    "location": {
+      "display_name": "Coleraine, Northern Ireland",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "Coleraine"
+      ]
+    },
+    "__CLASS__": "Adzuna::API::Response::Job"
+  },
+  {
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDQzODA1NjIxNSIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.oA_25okPmYJCTAJy5jJcOeMKeER7IueTBeaTmlWgYDo",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4438056215?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=89CCA4364169B21F70FC9C1DA0246B421E846E7B",
+    "salary_is_predicted": "1",
+    "id": "4438056215",
+    "description": "Civil Engineering Role for growing Multidisciplinary consultancy in Cambridgeshire Your new company: Hays is excited to be working with a dynamic and rapidly growing multidisciplinary engineering consultancy based in Cambridgeshire. With a proven track record of delivering innovative and sustainable engineering solutions across a variety of sectors, they pride themselves on our commitment to excellence and client satisfaction. As part of their expansion plans, they are seeking a talented Civil \u2026",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs"
+    },
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Hays"
+    },
+    "salary_min": 35412.81,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Civil Engineer",
+    "created": "2023-11-17T12:13:07Z",
+    "location": {
+      "area": [
+        "UK",
+        "Eastern England",
+        "Cambridgeshire"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Cambridgeshire, Eastern England"
+    },
+    "salary_max": 35412.81
+  },
+  {
+    "salary_max": 50000,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "location": {
+      "display_name": "Manchester, Greater Manchester",
+      "area": [
+        "UK",
+        "North West England",
+        "Greater Manchester",
+        "Manchester"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "created": "2024-01-30T12:45:04Z",
+    "title": "Manufacturing Engineer",
+    "salary_min": 50000,
+    "description": "A Manufacturing Engineer job based with an international manufacturer in Greater Manchester paying around \u00a350k Your new company This manufacturing organisation has an international presence, while maintaining an SME feel to the production facility. You will be working in an environment that allows you to develop your engineering skills, on unique projects working with world-renowned customers. Your new role In your new position as Manufacturing Engineer, you will be responsible for leading all \u2026",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs"
+    },
+    "company": {
+      "display_name": "HAYS",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_is_predicted": "0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4550068137?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=F265E0C09A672FD76D6EB00B13AEB7DEC471D832",
+    "id": "4550068137",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU1MDA2ODEzNyIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.gg13H0xMGqIcYi9BwPSKsDHkQQIVJ2g0EUbN302VXBY"
+  },
+  {
+    "salary_is_predicted": "1",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4447225527?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=544B89D3777A82779C059B7D236ADE1DD3018AB9",
+    "id": "4447225527",
+    "latitude": 54.351002,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDQ0NzIyNTUyNyIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.S45xNMp_yNkVgM6Pf3ry0BVyUGrrtghbaXiamjU4_EQ",
+    "longitude": -6.26702,
+    "salary_max": 36361.7,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2023-11-22T11:45:08Z",
+    "location": {
+      "display_name": "Banbridge, County Down",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "County Down",
+        "Banbridge"
+      ]
+    },
+    "title": "Aftermarket Engineer",
+    "salary_min": 36361.7,
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "description": "Aftermarket Engineer - Design orientated role Your new company Are you passionate about engineering and innovation? Do you want to work for a leading aerospace company that provides cutting-edge solutions for the global market? If so, you might be interested in joining our client as an Aftermarket Engineer. You will join a world-class manufacturer of aircraft components and systems. Your new role As an aftermarket engineer, you will be part of a dynamic team that works on improving or modifying\u2026",
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "HAYS"
+    }
+  },
+  {
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "HAYS"
+    },
+    "category": {
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "description": "Project Engineer in food production facility delivering future planning and improvement CAPEX Your new company Project Engineer with Craigavon based client who due to continued investment need a dedicated Project Engineer to manage annual project budget for all projects large and small. They have invested in expanding site, production lines and teams and due to planned new product launches will continue this spend as the company grows. This Project Engineer role offers concept to sign off cover\u2026",
+    "salary_min": 50000,
+    "title": "Project Engineer",
+    "created": "2023-12-12T13:13:49Z",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "Craigavon",
+        "Lurgan"
+      ],
+      "display_name": "Lurgan, Craigavon"
+    },
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 50000,
+    "longitude": -6.32285,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDQ3NDgwNzY2NCIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.-CmECrTuweDN3TGaKaXZ-hP0DXStvCrbmCBOIse9sk0",
+    "latitude": 54.458199,
+    "id": "4474807664",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4474807664?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=3AE8700B3A341C448F058BC3CCA43F520635305D",
+    "salary_is_predicted": "0"
+  },
+  {
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDYwMzg2NTI1MyIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.PS8Sz7BPilhUGGAZV1Qbc0XziYDC5P2Lfi8WAJi2ncM",
+    "longitude": -2.9793,
+    "id": "4603865253",
+    "latitude": 51.347599,
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4603865253?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=09125B82E6D43D8E9E40A514B672D23654F59B3E",
+    "salary_is_predicted": "0",
+    "salary_min": 37000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Hays"
+    },
+    "description": "An Automotive Re-manufacturer is looking for a Maintenance Engineer to join their ever-growing team. Your new company An automotive re-manufacturer is currently looking for a Maintenance Engineer to join their ever-growing team. The company has been supplying major OEMs for more than 4 decades. The business started off with a focus on front & rear-wheel drive manual transmission and growing into a centre of excellence for re-manufacturing. The business is TS16949, ISO9001 and ISO14001 certified\u2026",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs"
+    },
+    "salary_max": 37000,
+    "created": "2024-03-12T13:46:21Z",
+    "title": "Maintenance Engineer",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "South West England",
+        "North Somerset",
+        "Weston-Super-Mare"
+      ],
+      "display_name": "Weston-Super-Mare, North Somerset"
+    },
+    "__CLASS__": "Adzuna::API::Response::Job"
+  },
+  {
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU2NDc0MTI0MSIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.rqFM1gPSXHQzTEHIzuDSqAyxGhJ0GEAfy25-kKCAFLg",
+    "longitude": -2.989086,
+    "salary_is_predicted": "0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4564741241?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=B735371685D7E453B6A773873CCB9C4CDFF6B6BA",
+    "id": "4564741241",
+    "latitude": 54.599614,
+    "salary_min": 55000,
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs"
+    },
+    "description": "Engineering Manager - Nuclear Your new company Your new company is a Specialist Engineering business within Cumbria who operate at every point on the Engineering life cycle. They are at the forefront of technology within their field and have a number of high-end clients within the Nuclear and Defence industries. They are excelling within their field and hiring due to growth with an ongoing pipeline of work. Your new role As Engineering Manager, you will report to the Technical Director and have\u2026",
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "HAYS"
+    },
+    "salary_max": 65000,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "North West England",
+        "Cumbria"
+      ],
+      "display_name": "Cumbria, North West England"
+    },
+    "created": "2024-02-10T13:23:34Z",
+    "title": "Engineering Manager"
+  },
+  {
+    "longitude": -6.32216,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTgyNDE1MDY3In0.RkII5ZWE-V0JnqxbSzolbdxwn0k8wjg_p204dijm-hw",
+    "salary_is_predicted": "1",
+    "description": "Senior Civil Engineer, Newry Northern Ireland, Hybrid role Your new company Hays are working in partnership with an ambitious engineering and environmental consultancy company, seeking to employ a Senior Civil Engineer to assist with their ongoing projects.Our client is based in Ireland, but reach extends globally in the UK, Europe, Africa, Asia, and the Middle East. They are renowned as one of the leading engineering and environmental science companies globally. Their focus is on sustainabilit\u2026",
+    "title": "Civil Engineer",
+    "contract_type": "permanent",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4582415067?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=BFDAF7E87FD3EC384D8E90347BF5DA697969A4DA",
+    "latitude": 54.150097,
+    "id": "4582415067",
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "company": {
+      "display_name": "HAYS",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 43316.16,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "Newry & Mourne"
+      ],
+      "display_name": "Newry & Mourne, Northern Ireland"
+    },
+    "created": "2024-02-26T12:57:08Z",
+    "salary_max": 43316.16
+  },
+  {
+    "description": "Project Engineer in the energy sector is wanted by a highly successful company in Edinburgh. Summary My client is based in Edinburgh and are recruiting a Project Engineer to join their talented and energetic team working at the forefront of the marine energy industry. The Project Engineer will be based in the production team. With a full order book, the client is looking for a Project Engineer to drive the continued development of the client\u2019s tidal and floating solar technologies to scale up t\u2026",
+    "title": "Project Engineer",
+    "longitude": -3.327942,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTkzMTgzMzc0In0.C5qiJ1ZY7TGi1h2vCN5Wl6ibv47tnqdzj88sAG-gauY",
+    "salary_is_predicted": "0",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs"
+    },
+    "company": {
+      "display_name": "Hays",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 38000,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Scotland",
+        "Edinburgh"
+      ],
+      "display_name": "Edinburgh, Scotland"
+    },
+    "created": "2024-03-05T12:58:48Z",
+    "contract_time": "full_time",
+    "salary_max": 45000,
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4593183374?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=AC5A7A1AAD4AB5B250741813B70E32C53A085681",
+    "id": "4593183374",
+    "latitude": 55.943116
+  },
+  {
+    "salary_max": 38500,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "location": {
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "Craigavon",
+        "Lurgan"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Lurgan, Craigavon"
+    },
+    "created": "2024-02-28T11:33:06Z",
+    "salary_min": 38500,
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs"
+    },
+    "company": {
+      "display_name": "Hays",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4584820634?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=313D70CAC784FBFEDC0846C2EE9DAEAF662B0C90",
+    "id": "4584820634",
+    "latitude": 54.458199,
+    "contract_type": "permanent",
+    "title": "Maintenance Engineer",
+    "description": "Maintenance Engineer days Mon-Fri, Lurgan, \u00a338,500  OT Your new company Maintenance Engineer on days with part of a global brand they are the only manufacturing company of its kind in Northern Ireland and as such enjoy a huge presence in the UK and Ireland market. As a leading specialist provider of their product to household brands they have perfected innovation and quality and continually invest to be best in market. Offering a permanent Electrical Maintenance Engineer Job on days with a fant\u2026",
+    "salary_is_predicted": "0",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU4NDgyMDYzNCIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.4mzfANhAwL12zot604-jwFvnG1FVQLHxfiiRNzn5A_I",
+    "longitude": -6.32285
+  },
+  {
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTU0NDg1OTcwIn0.9adPl9lYyl6gxeoNN4I1mzy9Glytd7bJBWhmEvWXX7A",
+    "longitude": -6.76964,
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4554485970?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=21051C2E1D6E2047E5E743B63AF39B1828D69161",
+    "salary_is_predicted": "1",
+    "id": "4554485970",
+    "latitude": 54.5033,
+    "salary_min": 40669.5,
+    "description": "Design Engineer to join a leading machinery manufacturer in Dungannon Your new company Our client, a leading engineering firm, is at the forefront of innovation. They specialise in cutting-edge projects across various sectors from material handling, quarrying and recycling. We are seeking to recruit a Design Engineer to join them at their modern office and production facility in Dungannon. Your new role As a Design Engineer, you\u2019ll be an integral part of our dynamic team. Your mission? To creat\u2026",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs"
+    },
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "HAYS"
+    },
+    "salary_max": 40669.5,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2024-02-02T13:00:52Z",
+    "title": "Design Engineer",
+    "location": {
+      "display_name": "Dungannon, County Tyrone",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "County Tyrone",
+        "Dungannon"
+      ]
+    }
+  },
+  {
+    "longitude": -6.07617,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDQ3MTI2Nzk3MSIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.UdjhMbY-YyfteTvUjhD-0HG7EbQSgDW7_P87rfMTrsI",
+    "id": "4471267971",
+    "latitude": 54.463299,
+    "salary_is_predicted": "0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4471267971?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=99390F6963BFFFEFD4E807C35E34F5752F8D78C4",
+    "company": {
+      "display_name": "HAYS",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "description": "Design Engineer to join leading manufacturing company with sites across Co. Tyrone and Co. Down Your new company We are seeking to recruit a Design Engineer to join a leading engineering / manufacturing company who are at the forefront of aviation ground support equipment manufacturing. Their commitment to innovation and excellence has positioned them as a trusted partner in the aerospace industry. As they continue to expand, they are seeking a talented Design Engineer to work on their sites in\u2026",
+    "category": {
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "salary_min": 35000,
+    "created": "2023-12-09T12:52:57Z",
+    "location": {
+      "display_name": "Hillsborough, Lisburn",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "Lisburn",
+        "Hillsborough"
+      ]
+    },
+    "title": "Design Engineer",
+    "__CLASS__": "Adzuna::API::Response::Job"
+  },
+  {
+    "salary_min": 76800,
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Trade & Construction Jobs",
+      "tag": "trade-construction-jobs"
+    },
+    "company": {
+      "display_name": "HAYS",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_max": 86400,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2024-01-11T13:01:43Z",
+    "location": {
+      "display_name": "Little Grimsby, Louth",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "East Midlands",
+        "Lincolnshire",
+        "Louth",
+        "Little Grimsby"
+      ]
+    },
+    "contract_type": "contract",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4520113908?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=5AB52368A74DB6917B6C87DD1517662D55F92A12",
+    "id": "4520113908",
+    "latitude": 53.403354,
+    "description": "Freelance Civil Engineer - Grimsby 6  months \u00a340ph - \u00a345ph Your new company Great opportunity for a Freelance Civil Engineer located in Grimsby. 6 months  with likely extension. Due to a healthy forward workload, we are currently looking to appoint a Civil Engineer with 5 years experience for a great company in Grimsby. Your new role Ideally, you will be HND qualified or similar and will be responsible for the preparation, issue and management of technical project information, including calcula\u2026",
+    "title": "Civil Engineer",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDUyMDExMzkwOCIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.ClEIhwGy94uoEU3V7arsYcAR-Zs8mEO-IYGxEcYsyYI",
+    "longitude": -0.005854,
+    "salary_is_predicted": "0"
+  },
+  {
+    "salary_max": 38860.99,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2024-02-24T13:35:54Z",
+    "title": "Civil Engineer",
+    "location": {
+      "display_name": "Belfast, Northern Ireland",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "Belfast"
+      ],
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "salary_min": 38860.99,
+    "description": "Civil Engineer, Graduate Civil Engineer Your new company Hays Belfast is collaborating with one of Northern Ireland\u2019s most successful engineering consultancies. Due to a growing pipeline of work, they seek to hire Civil Engineers to assist in delivering projects across the country. This accomplished company has played a pivotal role in shaping careers and leaving a legacy of iconic projects. They operate across Architectural, Engineering, and Project Management sectors. Their expertise spans ar\u2026",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs"
+    },
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Hays"
+    },
+    "salary_is_predicted": "1",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4580861883?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=BB53F550D8A541EB9288EE7D3DC9631BEE2C54A8",
+    "id": "4580861883",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDU4MDg2MTg4MyIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.DecNnyWBOP6iR7hCKeYdxCqhAsEtnqE3VTpkxbGVxIE"
+  },
+  {
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Manufacturing Engineer",
+    "created": "2024-01-06T13:01:02Z",
+    "location": {
+      "display_name": "Craigavon, Northern Ireland",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "Craigavon"
+      ]
+    },
+    "salary_max": 45000,
+    "description": "Manufacturing Engineer Your new company You will be joining a company that deals with servicing the Aerospace industry, focusing on high speed machining of aluminium parts. They are based in the Craigavon area dealing with clients across the world, who are about to embark on another growth phase in their plans. Your new role You will be joining as a Manufacturing Engineer, ensuring that manufacturing is carried out (and the end product is produced) in the most time-efficient and cost-effective \u2026",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs"
+    },
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "HAYS"
+    },
+    "salary_min": 40000,
+    "salary_is_predicted": "0",
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4513328772?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=0F9DCA3AD0C96E515123820C5B945BAA8F9DDDE4",
+    "latitude": 54.448101,
+    "id": "4513328772",
+    "longitude": -6.38758,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDUxMzMyODc3MiIsInMiOiI0bTY2cVR2aTdoR2ZGREhuYXFRZ0ZnIn0.DSOSwahogNdRA1LiRlKnQApNlXvD3zDis7sPrDW8dtU"
+  },
+  {
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Maintenance Engineer",
+    "created": "2024-01-20T13:24:50Z",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": [
+        "UK",
+        "Northern Ireland",
+        "Craigavon",
+        "Portadown"
+      ],
+      "display_name": "Portadown, Craigavon"
+    },
+    "salary_max": 40000,
+    "category": {
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "description": "Maintenance Engineer on days Portadown, up \u00a340,000  Overtime  Benefits Your new company Maintenance Engineer job on days Monday to Friday paid at \u00a318-\u00a319 per hour. As Maintenance Engineer you will be joining a successful food production company which is secure employment and offering top market rates for skilled engineers. They supply to most retailers a high end product and continue to expand lines and product range through investment. Your new role Working day shift Monday to Friday and givin\u2026",
+    "company": {
+      "display_name": "HAYS",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 37000,
+    "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4534680330?se=4m66qTvi7hGfFDHnaqQgFg&utm_medium=api&utm_source=b9900fa2&v=B641E4D783A3623E24811BCA37155C298F5729AE",
+    "salary_is_predicted": "0",
+    "id": "4534680330",
+    "latitude": 54.4207,
+    "longitude": -6.44377,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNG02NnFUdmk3aEdmRkRIbmFxUWdGZyIsImkiOiI0NTM0NjgwMzMwIn0.qyrf48g16at1rWdXVo88ve-epapvLCZbuv2XqepjuRI"
+  }
+]
