@@ -21,6 +21,7 @@
     padding: 10px;
     cursor: pointer;
     font-size: calc(1rem - 1px);
+    border-bottom: darkgray 1px solid;
   }
   
   .suggestions-list li:hover {
