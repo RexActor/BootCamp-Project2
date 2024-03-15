@@ -13,7 +13,9 @@ import JobCard from './components/JobCard.jsx';
 
 function App() {
   return (
+
     <Router>
+
       {<Navbar />}
       <Routes>
         {/* <Route path="about" element={<About />} /> */}
