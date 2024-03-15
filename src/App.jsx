@@ -6,10 +6,10 @@ import Navbar from "./components/Navbar";
 //import About from './pages/About';
 import Team from "./pages/Team";
 import Home from "./pages/Home";
-//import Jobs from './pages/Jobs';
+import Jobs from './pages/Jobs';
 
 import Footer from "./components/Footer";
-import JobCard from "./components/JobCard.jsx";
+
 import SearchResult from "./components/SearchResult.jsx";
 import JobDetails from "./pages/JobDetails.jsx";
 
@@ -23,19 +23,19 @@ function App() {
 
     <Router>
 
-              {<Navbar />}
-              <SearchBar />
+      {<Navbar />}
+      <SearchBar />
       <Routes>
         {/* <Route path="about" element={<About />} /> */}
         <Route path="team" element={<Team />} />
         <Route path="/" element={<Home />} />
-        {/*<Route path="jobs/*" element={<Jobs />} />*/}
+        <Route path="jobs/*" element={<Jobs />} />
         <Route path="/details" element={<JobDetails />} />
       </Routes>
       {/* <LocationAutocomplete /> */}
-      
+
       <SearchResult />
-     <JobCard />
+
       <Footer />
     </Router>
   );
