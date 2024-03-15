@@ -3,8 +3,8 @@ import React from "react";
 
 function TeamCard(props) {
   return (
-<div className="">
-    <div className="flex">
+<div className="col col-span-4 justify-center">
+    <div className="row">
         <div className="img-container">
         <img
         alt= {props.name}
@@ -14,10 +14,10 @@ function TeamCard(props) {
       <div className="content">
       <ul>
         <li>
-          <strong>Title:</strong> {props.name}
+          <strong>Name:</strong> {props.name}
         </li>
         <li>
-          <strong>Description:</strong> {props.role}
+          <strong>Portfolio:</strong> {props.portfolio}
         </li>
         <li>
           <strong>Github repo:</strong> {props.github}
