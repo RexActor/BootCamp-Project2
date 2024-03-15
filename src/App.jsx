@@ -17,7 +17,9 @@ import SearchResult from "./components/SearchResult.jsx";
 
 function App() {
   return (
+
     <Router>
+
       {<Navbar />}
       <Routes>
         {/* <Route path="about" element={<About />} /> */}
