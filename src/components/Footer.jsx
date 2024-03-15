@@ -2,7 +2,6 @@ import React from "react";
 // import { Link, NavLink } from 'react-router-dom';
 
 function Footer() {
-
     return (
         <footer className="bg-gray-800 px-8 text-gray-100">
             <div className="mx-auto max-w-screen-lg pt-1">
