@@ -3,42 +3,42 @@
         "id": 1,
         "name": "Qingqing Yang",
         "image": "",
-        "role": "",
-        "github": "https://github.com/"
+        "portfolio": "",
+        "github": "https://github.com/qingh2o"
       },
       {
         "id": 2,
         "name": "Francis Wilkinson",
         "image": "",
-        "role": "",
+        "portfolio": "https://franciswilkinson.netlify.app/",
         "github": "https://github.com/franciswilkinson"
       },
       {
         "id": 3,
         "name": "Gatis Jansons",
         "image": "",
-        "role": "",
+        "portfolio": "https://gatis-jansons-portfolio.netlify.app/",
         "github": "https://github.com/RexActor"
       },
       {
         "id": 4,
         "name": "Simin Anaraki",
         "image": "",
-        "role": "",
+        "portfolio": "https://www.simin.uk/",
         "github": "https://github.com/SiminAnaraki"
       },
       {
         "id": 5,
         "name": "Caleb Jordan",
         "image": "",
-        "role": "",
+        "portfolio": "",
         "github": "https://github.com/calebtkjordan"
       },
       {
         "id": 6,
         "name": "Sumaiya Zulfikar",
         "image": "",
-        "role": "",
+        "portfolio": "https://65ea1beea034df5b9ec7ef61--sumaiyazulfikar.netlify.app/",
         "github": "https://github.com/sumzulfikar"
       }
 ]

@@ -26,10 +26,7 @@ function App() {
         {/*<Route path="jobs/*" element={<Jobs />} />*/}
       </Routes>
       {/* <LocationAutocomplete /> */}
-
       <SearchResult />
-
-
       <JobCard />
       <Footer />
     </Router>
