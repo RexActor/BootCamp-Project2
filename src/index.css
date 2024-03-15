@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.suggestions-list {
+    list-style: none;
+    padding: 0;
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    position: absolute;
+    z-index: 1000;
+    width: 50%; 
+    margin-top: 5px;
+    right: 0;
+    top: 100%;
+  }
+  
+  .suggestions-list li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: calc(1rem - 1px);
+  }
+  
+  .suggestions-list li:hover {
+    background-color: #f0f0f0;
+  }

@@ -13,6 +13,8 @@ import JobCard from "./components/JobCard.jsx";
 import SearchResult from "./components/SearchResult.jsx";
 import JobDetails from "./pages/JobDetails.jsx";
 
+import SearchBar from "./components/SearchBar.jsx";
+
 
 // import LocationAutocomplete from './components/LocationAutocomplete';
 
@@ -30,7 +32,10 @@ function App() {
         <Route path="/details" element={<JobDetails />} />
       </Routes>
       {/* <LocationAutocomplete /> */}
+      <SearchBar />
       <SearchResult />
+
+
       <JobCard />
       <Footer />
     </Router>
