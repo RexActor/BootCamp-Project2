@@ -23,7 +23,8 @@ function App() {
 
     <Router>
 
-      {<Navbar />}
+              {<Navbar />}
+              <SearchBar />
       <Routes>
         {/* <Route path="about" element={<About />} /> */}
         <Route path="team" element={<Team />} />
@@ -32,11 +33,9 @@ function App() {
         <Route path="/details" element={<JobDetails />} />
       </Routes>
       {/* <LocationAutocomplete /> */}
-      <SearchBar />
+      
       <SearchResult />
-
-
-      <JobCard />
+     <JobCard />
       <Footer />
     </Router>
   );
