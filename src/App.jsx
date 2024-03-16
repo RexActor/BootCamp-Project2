@@ -7,16 +7,10 @@ import Navbar from "./components/Navbar";
 import Team from "./pages/Team";
 import Home from "./pages/Home";
 import Jobs from './pages/Jobs';
-
 import Footer from "./components/Footer";
-
 import SearchResult from "./components/SearchResult.jsx";
 import JobDetails from "./pages/JobDetails.jsx";
-
 import SearchBar from "./components/SearchBar.jsx";
-
-
-// import LocationAutocomplete from './components/LocationAutocomplete';
 
 function App() {
   return (
@@ -32,9 +26,8 @@ function App() {
         <Route path="jobs/*" element={<Jobs />} />
         <Route path="/details" element={<JobDetails />} />
       </Routes>
-      {/* <LocationAutocomplete /> */}
 
-      <SearchResult />
+      {/* <SearchResult /> */}
 
       <Footer />
     </Router>
