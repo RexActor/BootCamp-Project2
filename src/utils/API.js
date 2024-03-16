@@ -14,24 +14,27 @@ const content_type = "&content-type=application/json";
 // http://api.adzuna.com/v1/api/jobs/gb/search/1?app_id={YOUR API ID}&app_key={YOUR API KEY}&results_per_page=20&what=javascript%20developer&content-type=application/json
 
 export default {
-  search(query) {
+  search(query, location) {
+    const encodedLocation = encodeURIComponent(location); 
     console.log(
       corsURL +
-        baseURL +
-        query +
-        API_KEY +
-        APP_ID +
-        results_amount +
-        content_type
+      baseURL +
+      query +
+      API_KEY +
+      APP_ID +
+      results_amount +
+      "&where=" + encodedLocation + 
+      content_type
     );
     return axios.get(
       corsURL +
-        baseURL +
-        query +
-        API_KEY +
-        APP_ID +
-        results_amount +
-        content_type
+      baseURL +
+      query +
+      API_KEY +
+      APP_ID +
+      results_amount +
+      "&where=" + encodedLocation + 
+      content_type
     );
   },
 };
