@@ -51,10 +51,10 @@ return (
                     <ul className="suggestions-list">
                         {suggestions.map((suggestion) => (
                             <li key={suggestion.id} onClick={() => handleSuggestionClick(suggestion)}>
-                                {suggestion.address.label}
+                                {suggestion.address.label.split(', ').slice(0, 2).join(', ')}
                             </li>
                         ))}
-                    </ul>
+                </ul>
                 )}
             </div>
             <div className="flex">
