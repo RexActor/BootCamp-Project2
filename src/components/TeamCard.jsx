@@ -3,24 +3,24 @@ import React from "react";
 
 function TeamCard(props) {
   return (
-<div className="col col-span-4 justify-center">
-    <div className="row">
+<div className="card max-w-sm rounded overflow-hidden shadow-lg">
+    <div className="w-full">
         <div className="img-container">
-        <img
+        <img className="mx-auto md:text-center"
         alt= {props.name}
         src= {props.image}
         />
         </div>
-      <div className="content">
-      <ul>
-        <li>
-          <strong>Name:</strong> {props.name}
+      <div className="content px-6 py-4 pb-2">
+      <ul className="list-disc list-outside marker:text-amber-600">
+        <li className="text-gray-600 font-bold text-xl mb-2">
+          {props.name}
         </li>
         <li>
-          <strong>Portfolio:</strong> {props.portfolio}
+          <a className="text-indigo-500 font-bold" href={props.portfolio}>Portfolio site</a>
         </li>
         <li>
-          <strong>Github repo:</strong> {props.github}
+          <a className="text-indigo-500 font-bold" href={props.github}>Github repo</a>
         </li>
       </ul>
       </div>
