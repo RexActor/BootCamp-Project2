@@ -1,16 +1,24 @@
 import React, { useState } from "react";
-import jobData from "../utils/data.json"
+import jobData from "../utils/data.json";
+import JobDetails from "../pages/JobDetails";
 
 
 const JobCard = () => {
     const [jobAds, setJobs] = useState(jobData);
+    const [showModal, setShowModal] = useState(undefined);
+    const handleShow = (id) => setShowModal(id);
+    const handleClose = (id) => {
+        if (id === showModal) {
+            setShowModal(undefined);
+        }
+    }
 
     let calcDuration = (date) => {
         const currentDate = new Date();
         const createdDate = new Date(date);
-        console.log(currentDate);
+        // console.log(currentDate);
         const duration = Math.floor((currentDate - createdDate) / (1000 * 60 * 60 * 24));
-        console.log(duration);
+        // console.log(duration);
         return duration;
     }
 
@@ -22,7 +30,7 @@ const JobCard = () => {
             <div className="max-w-screen-lg w-full flex flex-wrap justify-center pl-40">
                 {jobAds.map((job) => (
 
-                    <div className="col col-span-6 justify-center max-w-sm rounded overflow-hidden shadow-lg gap-10 m-2">
+                    <div  onClick={()=>handleShow(job.id)} className="col col-span-6 justify-center max-w-sm rounded overflow-hidden shadow-lg gap-10 m-2 relative">
                         <div className="flex  justify-center py-11  ">
                             <div className="card  px-4 rounded-3xl w-[25rem] m-2">
                                 <h3 className=" text-left text-xl font-medium text-slate-950 "> {job.title}</h3>
@@ -62,13 +70,16 @@ const JobCard = () => {
                             </div>
 
                         </div>
+                        {showModal === job.id ? (
+                        <div className="absolute">
+                            <JobDetails info={job} close={() => handleClose(job.id)} />
+                        </div>
+                        ) : null}
+                        {showModal===undefined ? null : null }
                     </div>
                 )
 
-
                 )}
-
-
 
             </div>
         </>
