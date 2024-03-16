@@ -1,8 +1,9 @@
-
+import Navbar from '../components/Navbar'
 function JobDetails(props) {
   return (
-    <div className="cantainer mx-auto px-4">
-      <div className="flex">
+    <>
+    <div className="mx-auto px-8 py-20 bg-white border-t border-indigo-600" >
+      <div className="mx-auto max-w-screen-lg  justify-between items-center">
         <div className="details basis-1/2">
           <button
             className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1"
@@ -14,7 +15,7 @@ function JobDetails(props) {
             >
             Close
           </button>
-          <div className="job-header border py-7 pl-3">
+          <div className="job-header border-b py-7 pl-3">
             <h1 className='font-bold mb-3' >{props.info.title}</h1>
             <p className='mb-3 '>{props.info.location.display_name}</p>
             <div className='mb-3'>
@@ -23,8 +24,8 @@ function JobDetails(props) {
             </div>
             <a href={props.info.redirect_url} className='p-3 mt-3 inline-block bg-gray-500 rounded '>apply now</a>
           </div>
-          <div className="job-sub-header border py-7 pl-3">
-            <h1 className='font-bold mb-3'>Job detail</h1>
+          <div className="job-sub-header  flex border-y py-7 pl-3">
+            <div><h1 className='font-bold mb-3'>Job detail</h1>
             <div className="flex">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z" />
@@ -46,22 +47,25 @@ function JobDetails(props) {
               </svg>
               <h4 className='ml-2'>Shift and schedule</h4>
             </div>
-            <p className='ml-8 mb-3'>???</p>
+            <p className='ml-8 mb-3'>???</p></div>
+            
+            <div className=" ml-48 chart basis-1/2">
+          <img src='/images/Bar-Chart-Vertical.png'/>
+        </div>
           </div>
-          <div className="job-location border py-7 pl-3">
+          <div className="job-location border-y py-7 pl-3">
           <h1 className='font-bold mb-3'>Location</h1>
             <p>{props.info.location.display_name}</p>
           </div>
-          <div className="job-description border py-7 pl-3">
+          <div className="job-description border-y py-7 pl-3">
             <h1 className='font-bold mb-3'>Full job description</h1>
             <p>{props.info.description}</p>
           </div>
         </div>
-        <div className="chart basis-1/2">
-          <img src='/images/Bar-Chart-Vertical.png'/>
-        </div>
+        
       </div>
     </div>
+    </>
   )
 }
 
