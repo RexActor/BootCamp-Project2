@@ -7,10 +7,10 @@ function About() {
             <section className="bg-gray-100">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-12 lg:py-24">
                     <h1 className="mb-5 text-4xl font-bold text-gray-700 md:text-5xl lg:text-6xl">
-                        About NetC</h1>
-                    <p className="mb-8 text-lg font-normal text-gray-700 lg:text-xl sm:px-16 lg:px-48">Introducing NetC, your
+                        About NetS</h1>
+                    <p className="mb-8 text-lg font-normal text-gray-700 lg:text-xl sm:px-16 lg:px-48">Introducing NetS, your
                         ultimate companion in the quest for your dream career. With a user-friendly interface and powerful
-                        search capabilities, NetC makes finding your next job a breeze. Explore thousands of job listings
+                        search capabilities, NetS makes finding your next job a breeze. Explore thousands of job listings
                         from top companies, tailored to your preferences and skills. Our intuitive tools allow you to easily
                         apply for jobs, track your applications, and manage your job search
                         effortlessly. </p>
