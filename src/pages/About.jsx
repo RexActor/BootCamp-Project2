@@ -5,7 +5,8 @@ import ContactForm from "../components/ContactForm";
 function About() {
   const [isContactFormOpen, setIsContactFormOpen] = useState(false);
 
-  const openContactForm = () => {
+  const openContactForm = (event) => {
+    event.preventDefault();
     setIsContactFormOpen(true);
   };
 
@@ -68,22 +69,18 @@ function About() {
           <a
             href="#"
             className="text-blue-700 hover:underline font-medium text-xl inline-flex items-center"
-            onClick={openContactForm}
+            onClick={(event) => openContactForm(event)}
           >
             Message us
             <svg
-              className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
-              aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 14 10"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="w-6 h-6 ml-2 mt-1"
             >
               <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M1 5h12m0 0L9 1m4 4L9 9"
+                fillRule="evenodd"
+                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z"
               />
             </svg>
           </a>

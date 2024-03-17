@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 function ContactForm({ closeModal }) {
   const [formData, setFormData] = useState({
-    name: "",
     email: "",
     subject: "",
     message: "",
@@ -31,7 +30,7 @@ function ContactForm({ closeModal }) {
     // Add a delay before closing the contact form
     setTimeout(() => {
       closeModal();
-    }, 1500);
+    }, 1200);
   };
 
   return (
@@ -53,18 +52,14 @@ function ContactForm({ closeModal }) {
                 onClick={closeModal}
               >
                 <svg
-                  className="h-4 w-4"
-                  aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 14"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="w-6 h-6"
                 >
                   <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                    fillRule="evenodd"
+                    d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"
                   />
                 </svg>
                 <span className="sr-only">Close</span>
@@ -78,22 +73,6 @@ function ContactForm({ closeModal }) {
             >
               <div>
                 <label
-                  htmlFor="contact-name"
-                  className="block mb-2 text-sm font-medium text-gray-900"
-                >
-                  Your Name
-                </label>
-                <input
-                  type="text"
-                  name="name"
-                  id="contact-name"
-                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 "
-                  placeholder="name"
-                  required
-                />
-              </div>
-              <div>
-                <label
                   htmlFor="contact-email"
                   className="block mb-2 text-sm font-medium text-gray-900"
                 >
@@ -104,7 +83,8 @@ function ContactForm({ closeModal }) {
                   name="email"
                   id="contact-email"
                   placeholder="name@company.com"
-                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5"
+                  onChange={handleInputChange}
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 w-80 sm:w-96"
                   required
                 />
               </div>
@@ -119,7 +99,7 @@ function ContactForm({ closeModal }) {
                   type="text"
                   name="subject"
                   id="contact-subject"
-                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 "
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 w-80 sm:w-96"
                   placeholder="subject"
                   onChange={handleInputChange}
                   required
@@ -135,24 +115,40 @@ function ContactForm({ closeModal }) {
                 <textarea
                   id="contact-message"
                   rows="4"
-                  className="block p-2.5 w-52 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 w-full w-72 sm:w-96"
+                  className="block p-2.5 w-52 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 w-full w-80 sm:w-96"
                   placeholder="leave a message..."
                   name="message"
                   onChange={handleInputChange}
                   required
                 ></textarea>
               </div>
-              <div className="flex">
+              <div className="flex items-center">
                 <button
                   type="submit"
                   id="contact-submit"
-                  className="px-5 py-3 text-base font-medium text-center text-white rounded-full bg-gray-800 hover:bg-opacity-60 focus:ring-4"
+                  className="px-5 py-3 text-base font-medium text-center text-white rounded-full bg-gray-800 hover:bg-opacity-60 focus:ring-4 flex items-center"
                 >
-                  Send Message
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                      />
+                    </svg>
+                  </span>
+                  <span className="ml-2">Send</span>
                 </button>
                 {/* Display notification message */}
                 {notification && (
-                  <span className="p-2 rounded-lg bg-yellow-400 ml-4 font-medium text-md text-gray-900">
+                  <span className="p-2 rounded-lg bg-yellow-400 ml-4 font-medium text-sm text-gray-900">
                     Opening email...
                   </span>
                 )}
