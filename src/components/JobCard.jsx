@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import jobData from "../utils/data.json";
 import JobDetails from "../pages/JobDetails";
 
-const JobCard = (props) => {
+const JobCard = () => {
     const [jobAds, setJobs] = useState(jobData);
     const [showModal, setShowModal] = useState(undefined);
     const handleShow = (id) => {
@@ -36,7 +36,7 @@ const JobCard = (props) => {
             </div>
 
             <div className=" simin max-w-screen-lg w-full flex flex-wrap justify-center pl-40">
-                {props.data.map((job) => (
+                {jobAds.map((job) => (
                     <div
                         onClick={() => handleShow(job.id)}
                         className="col col-span-6 justify-center max-w-sm rounded overflow-hidden shadow-lg gap-10 m-2 "

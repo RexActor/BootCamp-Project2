@@ -5,7 +5,7 @@ import axios from 'axios';
 
 
 const Jobs = () => {
-    const { state } = useLocation();
+
 
     const [jobCards, setJobCards] = useState([]);
     const [loading, setLoading] = useState(false);
