@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import ContactForm from '../components/ContactForm';
 
 function About() {
+    const [isContactFormOpen, setIsContactFormOpen] = useState(false);
+
+    const openContactForm = () => {
+        setIsContactFormOpen(true);
+    }
+
+    const closeContactForm = () => {
+        setIsContactFormOpen(false);
+    }
+
     return (
         <main>
             {/* hero  */}
@@ -43,7 +54,10 @@ function About() {
                     <p className="mb-8 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">Thank you
                         for your interest in connecting with us. Whether you have questions, feedback, or just want to say
                         hello, we would love to hear from you.</p>
-                    <a href="#" className="text-blue-700 hover:underline font-medium text-xl inline-flex items-center">
+                    <a href="#"
+                        className="text-blue-700 hover:underline font-medium text-xl inline-flex items-center"
+                        onClick={openContactForm }
+                    >
                         Message us
                         <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             fill="none" viewBox="0 0 14 10">
@@ -53,6 +67,9 @@ function About() {
                     </a>
                 </div>
             </section>
+            {/* Contact form  */}
+            {isContactFormOpen && <ContactForm closeModal={closeContactForm} />}
+
         </main>
     );
 }
