@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "../index.css";
+import API from '../utils/API.js';
 
 function Autocomplete() {
   const [inputValue, setInputValue] = useState("");
+  const [jobSearchInput, setJobSearchInput] = useState(""); 
   const [suggestions, setSuggestions] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
 
@@ -16,6 +18,22 @@ function Autocomplete() {
       setShowSuggestions(false);
     }
   };
+
+  const onJobSearchInputChange = (event) => { 
+    setJobSearchInput(event.target.value);
+  };
+
+  const handleSearchClick = () => { 
+    const locationValue = inputValue.split(' ')[0];
+    API.search(jobSearchInput, locationValue)
+      .then(response => {
+        console.log(response.data);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  };
+  
 
 const apiKey = "IOv1oSaJlK-5RRas0SYsM-7vBMmy28kUR0cbu5QIE4k";
 
@@ -37,13 +55,13 @@ const fetchSuggestions = async (query) => {
     setShowSuggestions(false);
   };
 
-return (
+  return (
     <section className="text-center bg-gray-100 px-8 sm:px-6">
         <div className="flex flex-col sm:flex-row justify-center items-center gap-2">
             <div className="relative rounded-full bg-white shadow-lg flex sm:flex-grow-0"> 
                 <label className="sr-only" htmlFor="job-search-input">Job Title Search</label>
                 <input className="h-10 w-full sm:max-w-xs rounded-l-full shadow-lg border-none bg-white pe-10 ps-4 text-sm"
-                        id="job-search-input" type="search" placeholder="Job title" />
+                        id="job-search-input" type="search" placeholder="Job title" value={jobSearchInput} onChange={onJobSearchInputChange} />
                 <label className="sr-only" htmlFor="location-search-input">Location Search</label>
                 <input className="h-10 w-full sm:max-w-xs rounded-r-full shadow-lg border-none bg-white pe-10 ps-4 text-sm"
                         id="location-search-input" type="search" placeholder="Location" value={inputValue} onChange={onInputChange} />
@@ -59,14 +77,14 @@ return (
             </div>
             <div className="flex">
                     <button type="button" id="search-button"
-                            className="h-10 rounded-full border-none bg-gray-800 px-5 py-3 shadow-lg font-medium text-white hover:bg-opacity-60 flex items-center mt-2 sm:mt-0 sm:ml-2">
+                            className="h-10 rounded-full border-none bg-gray-800 px-5 py-3 shadow-lg font-medium text-white hover:bg-opacity-60 flex items-center mt-2 sm:mt-0 sm:ml-2"
+                            onClick={handleSearchClick}>
                             <span className="inline-block align-middle">Search</span>
                     </button>
             </div>
         </div>
     </section>
-);
+  );
 }
 
 export default Autocomplete;
-

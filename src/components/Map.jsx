@@ -1,14 +1,18 @@
 import React from 'react'
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import data from '../utils/data.json';
+
+const latitude = data[0].latitude;
+const longitude = data[0].longitude;
 
 const containerStyle = {
   width: '400px',
   height: '400px'
 };
-
+// lat: -3.745,lng: -38.523
 const center = {
-  lat: -3.745,
-  lng: -38.523
+  lat: latitude,
+  lng: longitude
 };
 
 function MyComponent() {
