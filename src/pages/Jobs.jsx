@@ -1,47 +1,56 @@
-import React, { useState, useEffect } from "react";
-import JobCard from "../components/JobCard";
-import jobData from "../utils/data.json";
+
+import React, { useState, useEffect } from 'react';
+import JobCard from '../components/JobCard';
+
+import axios from 'axios';
 import { useLocation } from "react-router-dom";
 
 const Jobs = () => {
   const { state } = useLocation();
 
-  const [jobCards, setJobCards] = useState(state.results);
-  const [visibleCards, setVisibleCards] = useState(4);
-  const cardsPerPage = 4;
-  const loadMoreCards = () => {
-    setVisibleCards((prevVisibleCards) => prevVisibleCards + cardsPerPage);
-  };
-  useEffect(() => {
-    setJobCards(state.results);
-  }, []);
+    const [jobCards, setJobCards] = useState([]);
+    const [loading, setLoading] = useState(false);
+    const [visibleCards, setVisibleCards] = useState(1);
+    const [cardsPerPage] = useState(4);
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [visibleCards]);
+    useEffect(() => {
+        setLoading(true);
+        axios.get("../utils/data.json").then(res => {
+            setJobCards(res.data);
+            setLoading(false);
 
-  const handleScroll = () => {
-    if (
-      window.innerHeight + document.documentElement.scrollTop >=
-        document.documentElement.offsetHeight - 20 &&
-      visibleCards < jobCards.length
-    ) {
-      loadMoreCards();
-    }
-  };
+        })
+            .catch(error => {
+                console.error("Error", error);
+                setLoading(false);
+            })
 
-  return (
-    <div>
-      <div>
-        {jobCards.slice(0, visibleCards).map((job, index) => (
-          <JobCard id={job.id} key={job.id} job={job} data={jobCards} />
-        ))}
-      </div>
+    }, []);
 
-      <button onClick={loadMoreCards}>Load More Jobs</button>
-    </div>
-  );
-};
+    const indexOfLastCards = visibleCards * cardsPerPage;
+    const indexOfFirstCards = indexOfLastCards - cardsPerPage;
 
-export default Jobs;
+    const currentCards = jobCards.slice(indexOfFirstCards, indexOfLastCards);
+
+    const loadMore = () => {
+        setVisibleCards(prevVisibleCards => prevVisibleCards + 1);
+    };
+
+    return (
+        <div>
+
+            <div>
+
+                <JobCard jobCards={currentCards} loading={loading} />
+
+            </div>
+            {/* {jobCards.length > indexOfLastCards && (
+                <button onClick={loadMore()}>Loading more jobs</button>
+            )} */}
+
+        </div>
+    );
+}
+
+export default Jobs
+

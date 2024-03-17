@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import jobData from "../utils/data.json";
 import JobDetails from "../pages/JobDetails";
 
+
 const JobCard = (props) => {
   const [jobAds, setJobs] = useState(jobData);
   const [showModal, setShowModal] = useState(undefined);
@@ -14,19 +15,19 @@ const JobCard = (props) => {
       setShowModal(undefined);
     }
   };
+ 
 
   let calcDuration = (date) => {
     const currentDate = new Date();
     const createdDate = new Date(date);
-    // console.log(currentDate);
     const duration = Math.floor(
       (currentDate - createdDate) / (1000 * 60 * 60 * 24)
     );
-    // console.log(duration);
+    
     return duration;
   };
 
-  //   console.log(props.data);
+
   return (
     <>
       <div>
@@ -35,7 +36,7 @@ const JobCard = (props) => {
         </h2>
       </div>
 
-      <div className=" simin max-w-screen-lg w-full flex flex-wrap justify-center pl-40">
+      <div className="max-w-screen-lg w-full flex flex-wrap justify-center pl-40">
         {props.data.map((job) => (
           <div
             onClick={() => handleShow(job.id)}
@@ -121,6 +122,7 @@ const JobCard = (props) => {
                   />
                 </svg>
               </div>
+
             </div>
             {showModal === job.id ? (
               <div className="absolute top-0 xl:inset-x-0 2xl:inset-x-0   lg:inset-x-0 z-50 md:inset-x-0 sm:inset-x-0">
