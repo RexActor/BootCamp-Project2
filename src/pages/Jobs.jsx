@@ -5,6 +5,7 @@ import axios from 'axios';
 
 
 const Jobs = () => {
+    const { state } = useLocation();
 
     const [jobCards, setJobCards] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -50,4 +51,4 @@ const Jobs = () => {
     );
 }
 
-export default Jobs
+export default Jobs;
