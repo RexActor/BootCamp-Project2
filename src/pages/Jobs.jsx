@@ -1,12 +1,11 @@
-
 import React, { useState, useEffect } from 'react';
 import JobCard from '../components/JobCard';
 
 import axios from 'axios';
-import { useLocation } from "react-router-dom";
+
 
 const Jobs = () => {
-  const { state } = useLocation();
+
 
     const [jobCards, setJobCards] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -52,5 +51,4 @@ const Jobs = () => {
     );
 }
 
-export default Jobs
-
+export default Jobs;
