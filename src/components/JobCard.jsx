@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import jobData from "../utils/data.json";
 import JobDetails from "../pages/JobDetails";
 
-
 const JobCard = () => {
     const [jobAds, setJobs] = useState(jobData);
     const [showModal, setShowModal] = useState(undefined);
@@ -19,20 +18,14 @@ const JobCard = () => {
     let calcDuration = (date) => {
         const currentDate = new Date();
         const createdDate = new Date(date);
-        // console.log(currentDate);
         const duration = Math.floor((currentDate - createdDate) / (1000 * 60 * 60 * 24));
-        // console.log(duration);
         return duration;
     }
-
-
     return (
         <>
             <div><h2 className=" bg-slate-100 text-left text-lg text-slate-900 min-w-min">{jobData.length} jobs </h2></div>
-
-            <div className=" simin max-w-screen-lg w-full flex flex-wrap justify-center pl-40">
+            <div className="max-w-screen-lg w-full flex flex-wrap justify-center pl-40">
                 {jobAds.map((job) => (
-
                     <div onClick={() => handleShow(job.id)} className="col col-span-6 justify-center max-w-sm rounded overflow-hidden shadow-lg gap-10 m-2 ">
                         <div className="flex  justify-center py-11  ">
                             <div className="card  px-4 rounded-3xl w-[25rem] m-2">
@@ -60,10 +53,7 @@ const JobCard = () => {
                                     <div>
                                         <p className="text-xs text-gray-500">{job.contract_time}</p>
                                     </div>
-
                                 </div>
-
-
                             </div>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -82,7 +72,6 @@ const JobCard = () => {
                         {showModal === undefined ? null : null}
                     </div>
                 )
-
                 )}
 
             </div>
