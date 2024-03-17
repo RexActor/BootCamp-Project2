@@ -74,7 +74,10 @@ function JobDetails(props) {
             </div>
             
             <div className="map">
-              <Map/>
+            <Map
+            latitude = {props.info.latitude}
+            longitude = {props.info.longitude}
+            />
             </div>
           </div>
           <div className="job-description border-y py-7 pl-3">
