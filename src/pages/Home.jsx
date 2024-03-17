@@ -1,8 +1,11 @@
 import React from 'react';
 import HomeBackgroundImage from '../utils/home_bg.png';
+import SearchBar from "../components/SearchBar.jsx";
 
 function Home() {
     return (
+        <>
+          <SearchBar />
         <article id="home-content" className="bg-gray-100 flex flex-col gap-6 px-8 py-16 sm:px-6">
             <section className="my-10 mx-auto max-w-screen-lg flex flex-col md:my-12 md:flex-row lg:pt-10">
                 <div className="mx-auto w-full max-w-6xl md:w-2/5 md:pl-24">
@@ -38,7 +41,8 @@ function Home() {
                     </div>
                 </div>
             </section>
-        </article>
+            </article>
+            </>
     );
 }
 
