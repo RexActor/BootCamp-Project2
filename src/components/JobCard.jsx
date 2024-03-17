@@ -6,8 +6,10 @@ import JobDetails from "../pages/JobDetails";
 const JobCard = () => {
     const [jobAds, setJobs] = useState(jobData);
     const [showModal, setShowModal] = useState(undefined);
-    const handleShow = (id) =>{ setShowModal(id);
-    console.log(showModal)}
+    const handleShow = (id) => {
+        setShowModal(id);
+        console.log(showModal)
+    }
     const handleClose = (id) => {
         if (id === showModal) {
             setShowModal(undefined);
@@ -31,7 +33,7 @@ const JobCard = () => {
             <div className=" simin max-w-screen-lg w-full flex flex-wrap justify-center pl-40">
                 {jobAds.map((job) => (
 
-                    <div  onClick={()=>handleShow(job.id)} className="col col-span-6 justify-center max-w-sm rounded overflow-hidden shadow-lg gap-10 m-2 ">
+                    <div onClick={() => handleShow(job.id)} className="col col-span-6 justify-center max-w-sm rounded overflow-hidden shadow-lg gap-10 m-2 ">
                         <div className="flex  justify-center py-11  ">
                             <div className="card  px-4 rounded-3xl w-[25rem] m-2">
                                 <h3 className=" text-left text-xl font-medium text-slate-950 "> {job.title}</h3>
@@ -72,12 +74,12 @@ const JobCard = () => {
 
                         </div>
                         {showModal === job.id ? (
-                        <div className="absolute top-0 xl:inset-x-0 2xl:inset-x-0   lg:inset-x-0 z-50 md:inset-x-0 sm:inset-x-0">
-                            <JobDetails info={job} close={() => handleClose(job.id)} />
-                        </div>
-                        
+                            <div className="absolute top-0 xl:inset-x-0 2xl:inset-x-0   lg:inset-x-0 z-50 md:inset-x-0 sm:inset-x-0">
+                                <JobDetails info={job} close={() => handleClose(job.id)} />
+                            </div>
+
                         ) : null}
-                        {showModal===undefined ? null : null }
+                        {showModal === undefined ? null : null}
                     </div>
                 )
 
