@@ -5,7 +5,8 @@ import ContactForm from '../components/ContactForm';
 function About() {
     const [isContactFormOpen, setIsContactFormOpen] = useState(false);
 
-    const openContactForm = () => {
+    const openContactForm = (event) => {
+        event.preventDefault();
         setIsContactFormOpen(true);
     }
 
@@ -56,7 +57,7 @@ function About() {
                         hello, we would love to hear from you.</p>
                     <a href="#"
                         className="text-blue-700 hover:underline font-medium text-xl inline-flex items-center"
-                        onClick={openContactForm}
+                        onClick={(event) => openContactForm(event)}
                     >
                         Message us
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 ml-2 mt-1">
