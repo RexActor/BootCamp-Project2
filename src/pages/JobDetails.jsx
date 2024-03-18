@@ -31,6 +31,7 @@ function JobDetails(props) {
               </svg>
             </button>
           </div>
+          <div className='overflow-y-auto h-[500px]'>
           <div className="job-sub-header  flex border-y py-7 px-3">
             <div><h1 className='font-bold mb-6 text-lg'>Job detail</h1>
             <div className="flex pt-4">
@@ -92,7 +93,7 @@ function JobDetails(props) {
             <p className='pt-4'>{props.info.description}</p>
           </div>
         </div>
-        
+        </div>
       </div>
     </div>
     </>
