@@ -4,8 +4,8 @@ import JobChart from '../components/JobChart';
 function JobDetails(props) {
   return (
     <>
-    <div className="mx-auto px-8 py-20 z-50 bg-black bg-opacity-60" >
-      <div className="mx-auto max-w-screen-lg bg-white justify-between  rounded-xl items-center">
+    <div className="mx-auto px-8 py-10 z-50  bg-black bg-opacity-60" >
+      <div className="mx-auto max-w-screen-lg  bg-white justify-between  rounded-xl items-center">
         <div className="details  border shadow-lg rounded-2xl px-8 mt-14 basis-1/2">
           <div className='flex-holder items-start flex justify-between' >
             <div className="job-header border-b py-7 pl-3">

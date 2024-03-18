@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import JobDetails from "../pages/JobDetails";
 
 const JobCard = (props) => {
   const job = props.job;
   //Function to display Modal with job details when Jobcards are clicked
   const [showModal, setShowModal] = useState(undefined);
+  const [scrollPosition, setScrollPosition] = useState(0);
+
   const handleShow = (id) => {
     setShowModal(id);
   };
@@ -13,6 +15,18 @@ const JobCard = (props) => {
       setShowModal(undefined);
     }
   };
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY; // => scroll position
+      console.log(scrollPosition);
+      setScrollPosition(window.scrollY);
+  };
+  useEffect(() => {
+    handleScroll();
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+    }, [showModal]);
   // Function to use created date from API to calculate number of days elapsed
   let calcDuration = (date) => {
     const currentDate = new Date();
@@ -94,7 +108,7 @@ const JobCard = (props) => {
 
         {/* Card modal display */}
         {showModal === job.id ? (
-          <div className="absolute top-16 xl:inset-x-0 2xl:inset-x-0 lg:inset-x-0 z-50 md:inset-x-0 sm:inset-x-0">
+          <div  style={{ top: `${scrollPosition}px` }} className={`absolute  bottom-0 xl:inset-x-0 2xl:inset-x-0 lg:inset-x-0 z-50 md:inset-x-0 sm:inset-x-0`}>
             <JobDetails info={job} close={() => handleClose(job.id)} />
           </div>
         ) : null}
