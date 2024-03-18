@@ -36,7 +36,7 @@ const Jobs = () => {
                 </section>
 
             </main>
-            <div className="flex justify-center">
+            <div className="flex justify-center py-2 px-2">
                 <button type="button" className="inline-flex justify-center items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-gray-700 rounded-lg border border-gray-700 hover:bg-gray-400 focus:ring-4 focus:ring-gray-400" onClick={() => loadMore()}  >
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="mr-1 h-4 w-4">
                         <path fill-rule="evenodd"
@@ -46,6 +46,7 @@ const Jobs = () => {
                     Load more Jobs
                 </button>
             </div>
+            <div className="py-2"></div>
         </>
 
     );
