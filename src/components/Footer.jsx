@@ -50,7 +50,7 @@ function Footer() {
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-5 h-5">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                                     </svg>
-                                    <span className="text-gray-300">john@doe.com</span>
+                                    <span className="text-gray-300">john@pathway.com</span>
                                 </p>
                             </li>
                             <li className="flex items-center justify-center sm:justify-start">
@@ -65,24 +65,33 @@ function Footer() {
                     </div>
                     {/* -- Logo -- */}
                     <div className="flex justify-center sm:justify-start lg:justify-end">
-                        <Link className="navbar-brand" to="/">
-                        <p className="text-lg font-medium gap-2.5 flex sm:items-center transition hover:opacity-70">
-                            <svg width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="fill-current"><path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z" />
-                            </svg>
-                            Logo
-                        </p>
+                        <Link
+                            className="navbar-brand"
+                            to="/"
+                            target="_blank">
+                            <p className="text-lg font-medium gap-2.5 flex sm:items-center transition hover:text-yellow-400">
+                                <svg
+                                    width="32"
+                                    height="32"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="fill-current"
+                                >
+
+                                    <path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z" />
+                                </svg>
+                                Pathway
+                            </p>
                         </Link>
-                       
                     </div>
                 </div>
             </div>
-
             {/* -- Tearms -- */}
             <div className="mx-auto max-w-screen-lg pb-8">
                 <div className="mt-4  pt-8 sm:flex sm:items-center sm:justify-between lg:mt-12">
                     <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
                         <li >
-                            © 2024 Job Search, All rights reserved.
+                            © 2024 Pathway, All rights reserved.
                         </li>
                     </ul>
                     {/* -- Social links -- */}
