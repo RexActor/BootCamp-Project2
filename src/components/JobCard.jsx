@@ -35,7 +35,7 @@ const JobCard = (props) => {
         </h2>
       </div>
 
-      <div className=" simin max-w-screen-lg w-full flex flex-wrap justify-center pl-40">
+      <div className="max-w-screen-lg w-full flex flex-wrap justify-center pl-40">
         {props.data.map((job) => (
           <div
             onClick={() => handleShow(job.id)}

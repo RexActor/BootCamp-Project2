@@ -3,8 +3,8 @@ import Map from '../components/Map'
 function JobDetails(props) {
   return (
     <>
-    <div className="mx-auto px-8 py-20 bg-white border-t border-indigo-600" >
-      <div className="mx-auto max-w-screen-lg  justify-between items-center">
+    <div className="mx-auto px-8 py-20  bg-black bg-opacity-60" >
+      <div className="mx-auto max-w-screen-lg bg-white justify-between  rounded-xl items-center">
         <div className="details  border shadow-lg rounded-2xl px-8 mt-14 basis-1/2">
           <div className='flex-holder items-start flex justify-between' >
             <div className="job-header border-b py-7 pl-3">
@@ -74,10 +74,11 @@ function JobDetails(props) {
             </div>
             
             <div className="map">
-            <Map
+              {!props.info.latitude || !props.info.longitude ? null : <Map
             latitude = {props.info.latitude}
             longitude = {props.info.longitude}
-            />
+            />}
+            
             </div>
           </div>
           <div className="job-description border-y py-7 pl-3">
