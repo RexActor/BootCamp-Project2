@@ -2,7 +2,7 @@
 
 ## Deployed Site
 
-[Deployed Site](jobpathway.netlify.app)
+[Deployed Site](https://jobpathway.netlify.app/)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
