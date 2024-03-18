@@ -78,6 +78,12 @@ function Autocomplete() {
     setShowSuggestions(false);
   };
 
+  const handleKeyPress = (event) => {
+    if (event.key === "Enter") {
+      HandleSearchClick();
+    }
+  };
+
   return (
     <section className="text-center bg-gray-100 px-8 sm:px-6">
       <div className="flex flex-col sm:flex-row justify-center items-center gap-2">
@@ -93,6 +99,7 @@ function Autocomplete() {
             placeholder="Job title"
             value={jobSearchInput}
             onChange={onJobSearchInputChange}
+            onKeyDown={handleKeyPress}
           />
           <label className="sr-only" htmlFor="location-search-input">
             Location Search
