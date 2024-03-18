@@ -2,42 +2,60 @@
     {
         "id": 1,
         "name": "Qingqing Yang",
+        "title": "Web Designer",
         "image": "/images/QingqingYang.jpeg",
-        "portfolio": "",
+        "portfolio": "https://qing-qing-yang-portfolio.netlify.app/",
+        "duty":"Design intuitive and visually striking user interfaces for web.",
+        "linkedin":"https://www.linkedin.com/in/qing-qing-yang-designer/",
         "github": "https://github.com/qingh2o"
       },
       {
         "id": 2,
         "name": "Francis Wilkinson",
+        "title": "Front-end Developer",
         "image": "/images/FrancisWilkinson.jpg",
         "portfolio": "https://franciswilkinson.netlify.app/",
+        "duty":"Design intuitive and visually striking user interfaces for web.",
+        "linkedin":"https://www.linkedin.com/in/francis-wilkinson/",
         "github": "https://github.com/franciswilkinson"
       },
       {
         "id": 3,
         "name": "Gatis Jansons",
+        "title": "Front-end Developer",
         "image": "/images/GatisJansons.jpeg",
         "portfolio": "https://gatis-jansons-portfolio.netlify.app/",
+        "duty":"Design intuitive and visually striking user interfaces for web.",
+        "linkedin":"https://www.linkedin.com/in/gatis-jansons/",
         "github": "https://github.com/RexActor"
       },
       {
         "id": 4,
         "name": "Simin Anaraki",
+        "title": "Front-end Developer",
         "image": "/images/SiminAnaraki.jpeg",
         "portfolio": "https://www.simin.uk/",
+        "duty":"Design intuitive and visually striking user interfaces for web.",
+        "linkedin":"https://www.linkedin.com/in/simin-anaraki/",
         "github": "https://github.com/SiminAnaraki"
       },
       {
         "id": 5,
         "name": "Caleb Jordan",
+        "title": "Front-end Developer",
         "image": "/images/CalebJordan.png",
         "portfolio": "",
+        "duty":"Design intuitive and visually striking user interfaces for web.",
+        "linkedin":"",
         "github": "https://github.com/calebtkjordan"
       },
       {
         "id": 6,
         "name": "Sumaiya Zulfikar",
+        "title": "Front-end Developer",
         "image": "/images/SumaiyaZulfikar.png",
+        "linkedin":"https://www.linkedin.com/in/sumaiya-zulfikar/",
+        "duty":"Design intuitive and visually striking user interfaces for web.",
         "portfolio": "https://65ea1beea034df5b9ec7ef61--sumaiyazulfikar.netlify.app/",
         "github": "https://github.com/sumzulfikar"
       }
