@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "../index.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import API from "../utils/API.js";
 
 function Autocomplete() {
+  let canReload = false;
   const [inputValue, setInputValue] = useState("");
   const [jobSearchInput, setJobSearchInput] = useState("");
   const [suggestions, setSuggestions] = useState([]);
@@ -35,7 +36,7 @@ function Autocomplete() {
 
   const HandleSearchClick = async () => {
     const locationValue = inputValue.split(" ")[0];
-    console.log(inputValue);
+
     API.search(jobSearchInput, locationValue)
       .then((res) => {
         setSearchData({ ...searchData, results: res.data.results });
@@ -46,11 +47,25 @@ function Autocomplete() {
       });
   };
   const navigate = useNavigate();
+  const appLocation = useLocation();
+
+  //checks if current Navigation/location is in Jobs page/route.
+  //If so then sets that page can be reloaded
+
   console.log(searchData.results.length);
+  if (appLocation.pathname === "/Jobs") {
+    canReload = true;
+  }
   useEffect(() => {
-    if (searchData.results.length > 1) {
+    if (searchData.results.length > 0) {
       let path = "/Jobs";
       navigate(path, { state: { ...searchData } });
+      //checks if page is to be reloaded when data updates
+      //it reloads page and sets it back to false
+      if (canReload) {
+        window.location.reload();
+        canReload = false;
+      }
     }
   }, [searchData]);
 
