@@ -7,7 +7,6 @@ const JobCard = (props) => {
   const [showModal, setShowModal] = useState(undefined);
   const handleShow = (id) => {
     setShowModal(id);
-    console.log(showModal);
   };
   const handleClose = (id) => {
     if (id === showModal) {
@@ -32,7 +31,7 @@ const JobCard = (props) => {
 
       <div
         onClick={() => handleShow(job.id)}
-        className="card rounded-xl bg-gray-100 p-6 bg-white shadow-lg hover:bg-indigo-100 min-w-[20rem] lg:min-w-[25rem]"
+        className="card rounded-xl  bg-gray-100 p-6 bg-white shadow-lg hover:bg-indigo-100 min-w-[20rem] lg:min-w-[25rem]"
       >
         <div className="mb-1 flex items-center justify-between">
           <h3 className="text-gray-800 font-bold text-md sm:text-lg md:text-xl">
@@ -95,7 +94,7 @@ const JobCard = (props) => {
 
         {/* Card modal display */}
         {showModal === job.id ? (
-          <div className="absolute top-0 xl:inset-x-0 2xl:inset-x-0 lg:inset-x-0 z-50 md:inset-x-0 sm:inset-x-0">
+          <div className="absolute top-16 xl:inset-x-0 2xl:inset-x-0 lg:inset-x-0 z-50 md:inset-x-0 sm:inset-x-0">
             <JobDetails info={job} close={() => handleClose(job.id)} />
           </div>
         ) : null}
