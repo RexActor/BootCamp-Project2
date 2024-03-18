@@ -4,7 +4,7 @@ import JobChart from '../components/JobChart';
 function JobDetails(props) {
   return (
     <>
-    <div className="mx-auto px-8 py-10 z-50  bg-black bg-opacity-60" >
+    <div className=" pb-24  pt-8 z-50  bg-black bg-opacity-60" >
       <div className="mx-auto max-w-screen-lg  bg-white justify-between  rounded-xl items-center">
         <div className="details  border shadow-lg rounded-2xl px-8 mt-14 basis-1/2">
           <div className='flex-holder items-start flex justify-between' >
@@ -19,7 +19,7 @@ function JobDetails(props) {
             <a href={props.info.redirect_url}  target="_black" className='mt-3 inline-block px-5 py-3 text-base font-medium text-center text-white rounded-full bg-gray-800 hover:bg-opacity-60 focus:ring-4 '>apply now</a>
             </div>
             <button
-            className="ms-auto inline-flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 mt-8 hover:bg-gray-200 hover:text-gray-900 "
+            className="ms-auto inline-flex w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 mt-8 hover:bg-gray-200 hover:text-gray-900 "
             type="button"
             onClick={(event) => {
             event.stopPropagation(); // Stop event propagation
