@@ -37,7 +37,7 @@ function ContactForm({ closeModal }) {
     <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-60 flex justify-center items-center">
       <div className="bg-white p-8 rounded-lg mx-auto">
         {/* Contact Form Heading */}
-        <section id="contact-form">
+        <section id="contact-form" className="min-w-[20rem] md:min-w-[25rem]">
           <div className="mx-auto space-y-8 sm:p-8 bg-white rounded-lg">
             <div className="flex items-start justify-between rounded-t">
               <h3 className="text-xl font-bold text-gray-800 lg:text-3xl">
@@ -84,7 +84,7 @@ function ContactForm({ closeModal }) {
                   id="contact-email"
                   placeholder="name@company.com"
                   onChange={handleInputChange}
-                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 w-80 sm:w-96"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5"
                   required
                 />
               </div>
@@ -99,7 +99,7 @@ function ContactForm({ closeModal }) {
                   type="text"
                   name="subject"
                   id="contact-subject"
-                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 w-80 sm:w-96"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5"
                   placeholder="subject"
                   onChange={handleInputChange}
                   required
@@ -115,7 +115,7 @@ function ContactForm({ closeModal }) {
                 <textarea
                   id="contact-message"
                   rows="4"
-                  className="block p-2.5 w-52 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 w-full w-80 sm:w-96"
+                  className="block p-2.5 w-52 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 w-full"
                   placeholder="leave a message..."
                   name="message"
                   onChange={handleInputChange}
