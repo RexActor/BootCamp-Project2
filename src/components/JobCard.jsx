@@ -46,16 +46,17 @@ const JobCard = (props) => {
   const handleBookmarkClick = (event) => {
     event.stopPropagation();
     setIsBookmarked(prevIsBookmarked => !prevIsBookmarked);
-    saveJobs();
 
-  }
-  const saveJobs = () => {
     console.log(isBookmarked);
     const isJobSave = jobsBookmarked.some((savedJobs) => savedJobs.id === job.id);
     let updatedSavedJobs = [...jobsBookmarked];
-    if (!isJobSave) {
+    if (!isJobSave && isBookmarked === true) {
       updatedSavedJobs.push(job);
       setJobBookMarked(updatedSavedJobs);
+    }
+    else if (!isBookmarked && isJobSave) {
+      const updatedJob = updatedSavedJobs.filter(savedJobs => savedJobs.id !== job.id);
+      setJobBookMarked(updatedJob);
     }
   }
 
@@ -128,7 +129,7 @@ const JobCard = (props) => {
 
         {/* Card modal display */}
         {showModal === job.id ? (
-          <div  style={{ top: `${scrollPosition}px` }} className={`absolute  bottom-0 inset-x-0 xl:inset-x-0 2xl:inset-x-0 lg:inset-x-0 z-50 md:inset-x-0 sm:inset-x-0`}>
+          <div style={{ top: `${scrollPosition}px` }} className={`absolute  bottom-0 inset-x-0 xl:inset-x-0 2xl:inset-x-0 lg:inset-x-0 z-50 md:inset-x-0 sm:inset-x-0`}>
             <JobDetails info={job} close={() => handleClose(job.id)} />
           </div>
         ) : null}
