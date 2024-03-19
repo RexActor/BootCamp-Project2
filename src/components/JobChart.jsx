@@ -12,9 +12,9 @@ const BarChart = (props) => {
       chartInstance.current.destroy();
     }
 
-    const minSalary = (props.bar.salary_min)-15000;
+    const minSalary = (props.bar.salary_min)-12000;
     const maxSalary = props.bar.salary_max;
-    const avgSalary = ((minSalary + maxSalary) / 2)-10000;
+    const avgSalary = ((minSalary + maxSalary) / 2)-8000;
 
     chartInstance.current = new Chart(ctx, {
       type: 'bar',
@@ -26,21 +26,17 @@ const BarChart = (props) => {
           backgroundColor: [
             '#FFBB5E', // for minimum salary
             '#000', //  for maximum salary
-            '#00A19F', // Yellow for average salary
+            '#00A19F', // for average salary
           ],
-          borderColor: [
-            'rgba(255, 99, 132, 1)',
-            'rgba(54, 162, 235, 1)',
-            'rgba(255, 206, 86, 1)',
-          ],
+         
           borderWidth: 0,
           borderRadius: 250 // Set bar border radius to round the top of each bar
         }]
       },
       options: {
+        responsive: true, // Make the chart responsive
+        maintainAspectRatio: true, // Allow the chart to resize freely
         scales: {
-            responsive: true, // Make the chart responsive
-            maintainAspectRatio: false, // Allow the chart to resize freely
           x: {
             stacked: false,
             grid: {
@@ -54,7 +50,7 @@ const BarChart = (props) => {
               display: true // Hide background grid lines
             },
             ticks: {
-                callback: function(value,index,values) {
+                callback: function(value) {
                   return value / 1000 + 'k'; // Format y-axis labels in "k" (thousands)
                 }
           }}
