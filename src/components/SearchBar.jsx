@@ -122,7 +122,7 @@ function Autocomplete() {
             Job Title Search
           </label>
           <input
-            className="h-10 w-full sm:max-w-xs rounded-l-full shadow-lg border-none bg-white pe-10 ps-4 text-sm"
+            className="search-hover h-10 w-full sm:max-w-xs rounded-l-full shadow-lg border-none bg-white pe-10 ps-4 text-sm"
             id="job-search-input"
             type="search"
             name="search"
@@ -135,7 +135,7 @@ function Autocomplete() {
             Location Search
           </label>
           <input
-            className="h-10 w-full sm:max-w-xs rounded-r-full shadow-lg border-none bg-white pe-10 ps-4 text-sm"
+            className="search-hover h-10 w-full sm:max-w-xs rounded-r-full shadow-lg border-none bg-white pe-10 ps-4 text-sm"
             id="location-search-input"
             type="search"
             name="location"
