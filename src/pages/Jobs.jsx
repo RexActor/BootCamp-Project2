@@ -13,7 +13,7 @@ const Jobs = () => {
     }, []);
 
     // Function to reduce the result display for users and enable Load More feature to view more results
-    const [noOfCards, setNoOfCards] = useState(4);
+    const [noOfCards, setNoOfCards] = useState(10);
     const slice = jobCards.slice(0, noOfCards);
     const loadMore = () => {
         setNoOfCards(noOfCards + noOfCards);
