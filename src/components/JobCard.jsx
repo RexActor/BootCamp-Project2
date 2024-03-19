@@ -1,24 +1,28 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import JobDetails from "../pages/JobDetails";
+import { useLocalStorage } from "@uidotdev/usehooks";
 
 const JobCard = (props) => {
   const job = props.job;
   //Function to display Modal with job details when Jobcards are clicked
   const [showModal, setShowModal] = useState(undefined);
   const [scrollPosition, setScrollPosition] = useState(0);
-
+  const [jobsBookmarked, setJobBookMarked] = useLocalStorage("myJobs", []);
+  const [isBookmarked, setIsBookmarked] = useState(false);
   const handleShow = (id) => {
-    setShowModal(id);
+    if (id !== "bookmarkIcon") {
+      setShowModal(id);
+    }
   };
   const handleClose = (id) => {
     if (id === showModal) {
       setShowModal(undefined);
     }
   };
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY; // => scroll position
-      console.log(scrollPosition);
-      setScrollPosition(window.scrollY);
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY; // => scroll position
+    console.log(scrollPosition);
+    setScrollPosition(window.scrollY);
   };
   useEffect(() => {
     handleScroll();
@@ -26,7 +30,7 @@ const JobCard = (props) => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-    }, [showModal]);
+  }, [showModal]);
   // Function to use created date from API to calculate number of days elapsed
   let calcDuration = (date) => {
     const currentDate = new Date();
@@ -38,6 +42,22 @@ const JobCard = (props) => {
 
     return duration;
   };
+  // Function to save jobs
+  const handleBookmarkClick = (event) => {
+    event.stopPropagation();
+    setIsBookmarked(prevIsBookmarked => !prevIsBookmarked);
+    saveJobs();
+
+  }
+  const saveJobs = () => {
+    console.log(isBookmarked);
+    const isJobSave = jobsBookmarked.some((savedJobs) => savedJobs.id === job.id);
+    let updatedSavedJobs = [...jobsBookmarked];
+    if (!isJobSave) {
+      updatedSavedJobs.push(job);
+      setJobBookMarked(updatedSavedJobs);
+    }
+  }
 
   return (
     <>
@@ -54,8 +74,8 @@ const JobCard = (props) => {
           </h3>
           <span
             className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-gray-500 hover:bg-gray-300 ">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
-              stroke="currentColor" className="w-6 h-6">
+            <svg id="bookmarkIcon" xmlns="http://www.w3.org/2000/svg" fill={isBookmarked ? "#2d3748" : "none"} viewBox="0 0 24 24" strokeWidth="1.5"
+              stroke="currentColor" className="w-6 h-6" onClick={handleBookmarkClick}>
               <path strokeLinecap="round" strokeLinejoin="round"
                 d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
             </svg>

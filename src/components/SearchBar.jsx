@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "../index.css";
 import { useNavigate, useLocation } from "react-router-dom";
 import API from "../utils/API.js";
@@ -24,6 +24,21 @@ function Autocomplete() {
       setShowSuggestions(false);
     }
   };
+
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (containerRef.current && !containerRef.current.contains(event.target)) {
+        setShowSuggestions(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []); 
 
   const onJobSearchInputChange = (event) => {
     setJobSearchInput(event.target.value);
@@ -101,7 +116,7 @@ function Autocomplete() {
 
   return (
     <section className="text-center bg-gray-100 px-8 sm:px-6">
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-2">
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-2" ref={containerRef}>
         <div className="relative rounded-full bg-white shadow-lg flex sm:flex-grow-0">
           <label className="sr-only" htmlFor="job-search-input">
             Job Title Search

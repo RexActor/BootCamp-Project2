@@ -38,7 +38,7 @@ function About() {
           </p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <Link
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-gray-800 hover:bg-opacity-60 focus:ring-4"
+              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-full bg-gray-800 hover:bg-opacity-60 focus:ring-4"
               to="/"
               target="_blank"
             >
@@ -47,7 +47,7 @@ function About() {
 
             <a
               href="https://github.com/RexActor/BootCamp-Project2"
-              className="inline-flex justify-center items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-gray-700 rounded-lg border border-gray-700 hover:bg-gray-400 focus:ring-4 focus:ring-gray-400"
+              className="inline-flex justify-center items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-gray-700 rounded-full border border-gray-700 hover:bg-gray-400 focus:ring-4 focus:ring-gray-400"
               target="_blank"
             >
               Learn more
