@@ -1,12 +1,19 @@
-import Navbar from '../components/Navbar'
+import { useEffect, useState } from 'react';
 import Map from '../components/Map'
 import JobChart from '../components/JobChart';
 function JobDetails(props) {
+  const [heightClass, setHeightClass] = useState('');
+  useEffect(() => {
+    const screenHeight = window.innerHeight;
+    const newHeightClass = screenHeight < 900 ? 'h-[250px]' : 'h-[500px]';
+    setHeightClass(newHeightClass);
+  }, []);
+
   const calAvg = (((props.info.salary_min + props.info.salary_max) / 2)-8000).toFixed(0);
   const avg = calAvg.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
   return (
     <>
-    <div className=" pb-24  pt-8 z-50  bg-black bg-opacity-60" >
+    <div className=" h-screen py-8 z-50  bg-black bg-opacity-60" >
       <div className="mx-auto max-w-screen-lg  bg-white justify-between  rounded-xl items-center">
         <div className="details  border shadow-lg rounded-2xl px-8 mt-14 basis-1/2">
           <div className='flex-holder items-start flex justify-between' >
@@ -33,7 +40,7 @@ function JobDetails(props) {
               </svg>
             </button>
           </div>
-          <div className='overflow-y-auto h-[500px]'>
+          <div className={`overflow-y-auto ${heightClass}`}>
           <div className="job-sub-header justify-between xl:flex 2xl:flex md:flex sm:block  border-y py-7 px-3">
             <div className='job-datails'>
               <h1 className='font-bold mb-6 text-lg'>Job detail</h1>
@@ -81,7 +88,7 @@ function JobDetails(props) {
                 <a
                 href={`https://www.google.com/maps/dir//+${props.info.location.display_name}`}
                 
-                className="text-blue-500 hover:underline  mt-5 inline-block ml-8 font-medium text-lg  items-center"
+                className="text-blue-500 hover:underline  mt-5 inline-block  font-medium  2xl:text-lg xl:text-lg lg:text-lg md:text-lg sm:text-md items-center"
                 target="_blank"
                 >
                 Google Direction
@@ -90,7 +97,7 @@ function JobDetails(props) {
               
             </div>
               {!props.info.latitude || !props.info.longitude ? null : 
-              <div className="map  2xl:mt-0  xl:mt-0  lg:mt-0 md:mt-0  sm:mt-0 mt-16 2xl:w-96 2xl:h-96 xl:w-96 xl:h-96 lg:w-96 lg:h-96 md:w-80 md:h-80 sm:w-72 sm:h-72 w-72 h-72 ">
+              <div className="map  2xl:mt-0  xl:mt-0  lg:mt-0 md:mt-0  sm:mt-16 mt-16 2xl:w-96 2xl:h-96 xl:w-96 xl:h-96 lg:w-96 lg:h-96 md:w-80 md:h-80 sm:w-72 sm:h-72 w-72 h-72 ">
               <Map
             latitude = {props.info.latitude}
             longitude = {props.info.longitude}
