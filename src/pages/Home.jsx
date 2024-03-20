@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import HomeBackgroundImage from '../utils/home_bg.png';
 import SearchBar from "../components/SearchBar.jsx";
-import { Link } from 'react-router-dom';
 
 function Home() {
     return (
         <>
             <SearchBar />
             <article id="home-content" className="bg-gray-100 flex flex-col gap-6 px-8 py-8 sm:px-6 md:py-16">
+                {/* Hero */}
                 <section className="my-10 mx-auto max-w-screen-lg flex flex-col md:my-12 md:flex-row lg:pt-10">
                     <div className="mx-auto w-full max-w-6xl md:w-2/5 md:pl-24">
                         <div className="flex flex-col items-start">
@@ -25,6 +26,7 @@ function Home() {
                         <img src={HomeBackgroundImage} alt="Background Image" className="block mx-auto md:mx-0 md:mt-0" />
                     </div>
                 </section>
+                {/* Data source */}
                 <section className="mx-auto w-full max-w-7xl px-5 py-6 md:px-10 md:pt-16 lg:py-24">
                     <h2 className="text-center text-3xl text-gray-700 font-bold lg:text-5xl">Backed up by real data</h2>
                     <p className="mx-auto mb-8 mt-4 max-w-lg items-center text-center text-sm sm:text-base md:mb-12 lg:mb-16">
