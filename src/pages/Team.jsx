@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import TeamCard from "../components/TeamCard";
 import TeamMembers from "../utils/TeamMembers.json";
 
@@ -17,7 +17,6 @@ function Team() {
               bring you the best product.
             </p>
           </div>
-
           {/* Team cards */}
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:gap-8">
             {TeamMembers.map((TeamMember) => (
