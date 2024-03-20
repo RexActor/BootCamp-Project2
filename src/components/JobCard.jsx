@@ -61,6 +61,10 @@ const JobCard = (props) => {
     }
     setIsBookmarked(updatedIsBookmarked);
   }
+  // Ensuring salary values do not show pennies and special characters when passing to job details
+
+  const maxSalary = (job.salary_max).toFixed(0).replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+  const minSalary = (job.salary_min).toFixed(0).replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
 
   return (
     <>
@@ -96,7 +100,7 @@ const JobCard = (props) => {
           </p>
         )}
         <p className="text-gray-600 rounded-lg font-bold bg-gray-100 inline-block py-1 px-2">
-          £{job.salary_min}-£{job.salary_max}
+          £{minSalary}-£{maxSalary}
         </p>
 
         <div className="mt-2 sm:flex sm:items-center sm:gap-2">

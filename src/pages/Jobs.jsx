@@ -22,11 +22,9 @@ const Jobs = () => {
     return (
         <>
             <SearchBar />
-            {/* <div>
-                <p className="font-bold text-gray-800 md:text-lg">{state.results.title}can i see the text</p>
-            </div > */}
-
             <main id="card-list" className="px-8 py-8 bg-gray-100 text-gray-800">
+                <div className="mx-auto px-8 ml-8">
+                    <p className="font-bold text-gray-800 md:text-lg ">Job Results</p></div>
                 <section className="mx-auto max-w-screen-lg flex justify-center my-12">
                     {/* cards container */}
                     <div className="grid gap-4 sm:grid-cols-2 md:gap-8">
@@ -39,7 +37,7 @@ const Jobs = () => {
 
                 </section>
 
-            </main>
+            </main >
             <div className="flex justify-center py-2 px-2">
                 <button type="button" className="inline-flex justify-center items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-gray-700 rounded-lg border border-gray-700 hover:bg-gray-400 focus:ring-4 focus:ring-gray-400" onClick={() => loadMore()}  >
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="mr-1 h-4 w-4">
