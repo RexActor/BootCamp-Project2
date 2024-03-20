@@ -22,6 +22,10 @@ const Jobs = () => {
     return (
         <>
             <SearchBar />
+            {/* <div>
+                <p className="font-bold text-gray-800 md:text-lg">{state.results.title}can i see the text</p>
+            </div > */}
+
             <main id="card-list" className="px-8 py-8 bg-gray-100 text-gray-800">
                 <section className="mx-auto max-w-screen-lg flex justify-center my-12">
                     {/* cards container */}

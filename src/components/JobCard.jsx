@@ -9,6 +9,7 @@ const JobCard = (props) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [jobsBookmarked, setJobBookMarked] = useLocalStorage("myJobs", []);
   const [isBookmarked, setIsBookmarked] = useState(false);
+
   const handleShow = (id) => {
     if (id !== "bookmarkIcon") {
       setShowModal(id);
@@ -45,19 +46,20 @@ const JobCard = (props) => {
   // Function to save jobs
   const handleBookmarkClick = (event) => {
     event.stopPropagation();
-    setIsBookmarked(prevIsBookmarked => !prevIsBookmarked);
+    const updatedIsBookmarked = !isBookmarked;
 
-    console.log(isBookmarked);
+    console.log(updatedIsBookmarked);
     const isJobSave = jobsBookmarked.some((savedJobs) => savedJobs.id === job.id);
     let updatedSavedJobs = [...jobsBookmarked];
-    if (!isJobSave && isBookmarked === true) {
+    if (!isJobSave && updatedIsBookmarked === true) {
       updatedSavedJobs.push(job);
       setJobBookMarked(updatedSavedJobs);
     }
-    else if (!isBookmarked && isJobSave) {
+    else if (isJobSave && updatedIsBookmarked === false) {
       const updatedJob = updatedSavedJobs.filter(savedJobs => savedJobs.id !== job.id);
       setJobBookMarked(updatedJob);
     }
+    setIsBookmarked(updatedIsBookmarked);
   }
 
   return (
