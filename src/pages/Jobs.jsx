@@ -7,6 +7,9 @@ const Jobs = () => {
     const { state } = useLocation();
     // Pulling Api results and pushing the data information into individual job cards
     const [jobCards, setJobCards] = useState(state.results);
+    useEffect(() => {
+        document.title = "Pathway-Jobs";
+    }, []);
 
     useEffect(() => {
         setJobCards(state.results);
