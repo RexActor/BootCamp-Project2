@@ -16,11 +16,13 @@ function SearchContainer() {
       )
       .catch((err) => console.log(err));
   };
+
   // console.log(res.data.results)
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
     searchAPI(searchData.search);
+
   };
 
   const handleInputChange = (event) => {
@@ -33,6 +35,7 @@ function SearchContainer() {
 
 
   console.log(searchData.results);
+
   return (
     <div>
       <SearchForm
