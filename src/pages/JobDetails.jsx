@@ -1,23 +1,30 @@
 import { useEffect, useState } from 'react';
 import Map from '../components/Map'
 import JobChart from '../components/JobChart';
+
+
 function JobDetails(props) {
+  // State to manage height class based on screen height
   const [heightClass, setHeightClass] = useState('');
+
+  // Effect to update height class based on screen height
   useEffect(() => {
     const screenHeight = window.innerHeight;
-    const newHeightClass = screenHeight < 900 ? 'h-[250px]' : 'h-[500px]';
+    const newHeightClass = screenHeight < 900 ? 'h-[700px]' : 'h-[800px]';
     setHeightClass(newHeightClass);
   }, []);
 
+  // Formatting salary values
   const minSalary = (props.info.salary_min).toFixed(0).toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
   const maxSalary = (props.info.salary_max).toFixed(0).toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
   const calAvg = (((props.info.salary_min + props.info.salary_max) / 2)-8000).toFixed(0);
   const avg = calAvg.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+  
   return (
     <>
-    <div className=" h-screen py-8 z-50  bg-black bg-opacity-60" >
+    <div className=" h-screen 2xl:py-8  xl:py-8 lg:py-8 md:py-8  sm:py-4  py-1 z-50  bg-black bg-opacity-60" >
       <div className="mx-auto max-w-screen-lg  bg-white justify-between  rounded-xl items-center">
-        <div className="details  border shadow-lg rounded-2xl px-8 mt-14 basis-1/2">
+        <div className={`details  border shadow-lg rounded-2xl px-8 mt-14 basis-1/2 overflow-y-auto ${heightClass}`}>
           <div className='flex-holder items-start flex justify-between' >
             <div className="job-header border-b py-7 pl-3">
               <h1 className='font-bold  text-2xl mb-6' >{props.info.title}</h1>
@@ -42,7 +49,7 @@ function JobDetails(props) {
               </svg>
             </button>
           </div>
-          <div className={`overflow-y-auto ${heightClass}`}>
+          <div>
           <div className="job-sub-header justify-between xl:flex 2xl:flex md:flex sm:block  border-y py-7 px-3">
             <div className='job-datails'>
               <h1 className='font-bold mb-6 text-lg'>Job detail</h1>
