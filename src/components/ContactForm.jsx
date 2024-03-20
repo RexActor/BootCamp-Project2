@@ -16,17 +16,14 @@ function ContactForm({ closeModal }) {
       [name]: value,
     });
   };
-
+  
   const handleFormSubmit = (event) => {
     event.preventDefault();
-
     // Add user notification that email will be opened
     setNotification(true);
-
     // Open email window
     const mailtoLink = `mailto:ching@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(formData.message)}`;
     window.location.href = mailtoLink;
-
     // Add a delay before closing the contact form
     setTimeout(() => {
       closeModal();

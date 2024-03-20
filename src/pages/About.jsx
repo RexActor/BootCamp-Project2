@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
 
 function About() {
+
   const [isContactFormOpen, setIsContactFormOpen] = useState(false);
 
   const openContactForm = (event) => {
-    event.preventDefault();
+    event.preventDefault();  //Stop the page back to the top 
     setIsContactFormOpen(true);
   };
 
@@ -44,7 +45,6 @@ function About() {
             >
               Starts here
             </Link>
-
             <a
               href="https://github.com/RexActor/BootCamp-Project2"
               className="inline-flex justify-center items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-gray-700 rounded-full border border-gray-700 hover:bg-gray-400 focus:ring-4 focus:ring-gray-400"
@@ -66,6 +66,7 @@ function About() {
             questions, feedback, or just want to say hello, we would love to
             hear from you.
           </p>
+          {/* Open Modal */}
           <a
             href="#"
             className="text-blue-700 hover:underline font-medium text-xl inline-flex items-center"
@@ -86,8 +87,7 @@ function About() {
           </a>
         </div>
       </section>
-
-      {/* Contact form  */}
+      {/* Modal - Contact form  */}
       {isContactFormOpen && <ContactForm closeModal={closeContactForm} />}
     </main>
   );
