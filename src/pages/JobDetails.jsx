@@ -59,7 +59,7 @@ function JobDetails(props) {
               <h4 className=' font-semibold ml-2 capitalize '> job category</h4>
               </div>
               <p className='ml-8 my-3 inline-block bg-gray-200 p-1 rounded-md' >{props.info.category.label}</p></div>
-            <div className=" chart   xl:w-96 md:w-80  sm:w-72    sm:mt-20 xs:mt-20">
+            <div className=" chart  2xl:w-96 xl:w-96 lg:w-96 md:w-80  sm:w-72 w-72   2xl:mt-0  xl:mt-0  lg:mt-0 md:mt-0  sm:mt-0 mt-16">
               <p className="text-gray-500 pb-4">Salary Comparison 2024</p>
               <div className='mb-12'>
               <span className='text-gray-500'>Avg:</span><span className='font-semibold'> {`£${avg}`}</span>
@@ -89,13 +89,13 @@ function JobDetails(props) {
                
               
             </div>
-            <div className="map  sm:mt-20 xs:mt-20 2xl:w-96 2xl:h-96 xl:w-96 xl:h-96 lg:w-96 lg:h-96 md:w-80 md:h-80 sm:w-72 sm:h-72 ">
-              {!props.info.latitude || !props.info.longitude ? null : <Map
+              {!props.info.latitude || !props.info.longitude ? null : 
+              <div className="map  2xl:mt-0  xl:mt-0  lg:mt-0 md:mt-0  sm:mt-0 mt-16 2xl:w-96 2xl:h-96 xl:w-96 xl:h-96 lg:w-96 lg:h-96 md:w-80 md:h-80 sm:w-72 sm:h-72 w-72 h-72 ">
+              <Map
             latitude = {props.info.latitude}
             longitude = {props.info.longitude}
-            />}
-            
-            </div>
+            />
+            </div>}
           </div>
           <div className="job-description border-y py-7 pl-3">
             <h1 className='font-bold mb-6 text-lg'>Full job description</h1>
