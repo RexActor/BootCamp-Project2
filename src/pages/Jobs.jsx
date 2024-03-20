@@ -23,9 +23,10 @@ const Jobs = () => {
         <>
             <SearchBar />
             <main id="card-list" className="px-8 py-8 bg-gray-100 text-gray-800">
-                <div className="mx-auto px-8 ml-8">
-                    <p className="font-bold text-gray-800 md:text-lg ">Job Results</p></div>
-                <section className="mx-auto max-w-screen-lg flex justify-center my-12">
+                <div className="mx-auto max-w-screen-lg flex justify-between items-center">
+                    <p className="font-bold text-gray-800 md:text-lg ">Job Results</p>
+                </div>
+                <section className="mx-auto max-w-screen-lg flex justify-center mt-4 mb-8">
                     {/* cards container */}
                     <div className="grid gap-4 sm:grid-cols-2 md:gap-8">
 
