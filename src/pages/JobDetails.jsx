@@ -2,6 +2,8 @@ import Navbar from '../components/Navbar'
 import Map from '../components/Map'
 import JobChart from '../components/JobChart';
 function JobDetails(props) {
+  const calAvg = (((props.info.salary_min + props.info.salary_max) / 2)-8000).toFixed(0);
+  const avg = calAvg.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
   return (
     <>
     <div className=" pb-24  pt-8 z-50  bg-black bg-opacity-60" >
@@ -60,7 +62,7 @@ function JobDetails(props) {
             <div className=" chart   xl:w-96 md:w-80  sm:w-72    sm:mt-20 xs:mt-20">
               <p className="text-gray-500 pb-4">Salary Comparison 2024</p>
               <div className='mb-12'>
-              <span className='text-gray-500'>Avg:</span><span className='font-semibold'> {`£${((props.info.salary_min + props.info.salary_max) / 2)-10000}`}</span>
+              <span className='text-gray-500'>Avg:</span><span className='font-semibold'> {`£${avg}`}</span>
               </div>
   
               <JobChart bar= {props.info}/>
@@ -75,7 +77,17 @@ function JobDetails(props) {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                 </svg>
                 <p className='ml-2'>{props.info.location.display_name}</p>
-              </div>
+                </div>
+                <a
+                href={`https://www.google.com/maps/dir//+${props.info.location.display_name}`}
+                
+                className="text-blue-500 hover:underline  mt-5 inline-block ml-8 font-medium text-lg  items-center"
+                target="_blank"
+                >
+                Google Direction
+                </a>
+               
+              
             </div>
             <div className="map  sm:mt-20 xs:mt-20 2xl:w-96 2xl:h-96 xl:w-96 xl:h-96 lg:w-96 lg:h-96 md:w-80 md:h-80 sm:w-72 sm:h-72 ">
               {!props.info.latitude || !props.info.longitude ? null : <Map
