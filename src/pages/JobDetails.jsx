@@ -10,7 +10,12 @@ function JobDetails(props) {
   // Effect to update height class based on screen height
   useEffect(() => {
     const screenHeight = window.innerHeight;
-    const newHeightClass = screenHeight < 900 ? 'h-[700px]' : 'h-[800px]';
+    const newHeightClass = screenHeight < 900 ? 'h-[700px]' : 'h-[850px]';
+    setHeightClass(newHeightClass);
+  }, []);
+  useEffect(() => {
+    const screenHeight = window.innerHeight;
+    const newHeightClass = screenHeight < 700 ? 'h-[550px]' : 'h-[700px]';
     setHeightClass(newHeightClass);
   }, []);
 
@@ -22,7 +27,7 @@ function JobDetails(props) {
   
   return (
     <>
-    <div className=" h-screen 2xl:py-8  xl:py-8 lg:py-8 md:py-8  sm:py-4  py-1 z-50  bg-black bg-opacity-60" >
+    <div className=" h-screen pt-8  z-50  bg-black bg-opacity-60" >
       <div className="mx-auto max-w-screen-lg  bg-white justify-between  rounded-xl items-center">
         <div className={`details  border shadow-lg rounded-2xl px-8 mt-14 basis-1/2 overflow-y-auto ${heightClass}`}>
           <div className='flex-holder items-start flex justify-between' >
