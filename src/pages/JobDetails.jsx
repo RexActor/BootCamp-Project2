@@ -10,12 +10,16 @@ function JobDetails(props) {
   // Effect to update height class based on screen height
   useEffect(() => {
     const screenHeight = window.innerHeight;
-    const newHeightClass = screenHeight < 900 ? 'h-[700px]' : 'h-[850px]';
-    setHeightClass(newHeightClass);
-  }, []);
-  useEffect(() => {
-    const screenHeight = window.innerHeight;
-    const newHeightClass = screenHeight < 700 ? 'h-[550px]' : 'h-[700px]';
+    let newHeightClass = '';
+  
+    if (screenHeight >= 900) {
+      newHeightClass = 'h-[750px]';
+    } else if (screenHeight >= 750) {
+      newHeightClass = 'h-[620px]';
+    } else if (screenHeight < 750) {
+      newHeightClass = 'h-[470px]';
+    }
+  
     setHeightClass(newHeightClass);
   }, []);
 
@@ -29,20 +33,10 @@ function JobDetails(props) {
     <>
     <div className=" h-screen pt-8  z-50  bg-black bg-opacity-60" >
       <div className="mx-auto max-w-screen-lg  bg-white justify-between  rounded-xl items-center">
-        <div className={`details  border shadow-lg rounded-2xl px-8 mt-14 basis-1/2 overflow-y-auto ${heightClass}`}>
-          <div className='flex-holder items-start flex justify-between' >
-            <div className="job-header border-b py-7 pl-3">
-              <h1 className='font-bold  text-2xl mb-6' >{props.info.title}</h1>
-              <p className='text-gray-700 text-md'>{props.info.company.display_name}</p>
-              <p className='mb-3 text-gray-500 text-sm'>{props.info.location.display_name}</p>
-              <div className='mb-3 '>
-              <span>{`£ ${minSalary} - ${maxSalary}  a year`}</span> 
-              <span className='pl-5 uppercase'>{props.info.contract_time}</span>
-            </div>
-            <a href={props.info.redirect_url}  target="_black" className='mt-3 inline-block px-5 py-3 text-base font-medium text-center text-white rounded-full bg-gray-800 hover:bg-opacity-60 focus:ring-4 '>apply now</a>
-            </div>
-            <button
-            className="ms-auto inline-flex w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 mt-8 hover:bg-gray-200 hover:text-gray-900 "
+        <div className='flex-holder items-start px-8 flex justify-between'>
+        <h1 className='font-bold  text-2xl mt-8 ' >{props.info.title}</h1>
+        <button
+            className="ms-auto inline-flex w-8 items-center justify-center rounded-lg bg-transparent text-sm  text-gray-400 mt-8 hover:bg-gray-200 hover:text-gray-900 "
             type="button"
             onClick={(event) => {
             event.stopPropagation(); // Stop event propagation
@@ -53,7 +47,17 @@ function JobDetails(props) {
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
               </svg>
             </button>
-          </div>
+        </div>
+        <div className={`details  shadow-lg rounded-2xl px-8 mt-14 basis-1/2 overflow-y-auto ${heightClass}`}>
+            <div className="job-header border-b py-7 pl-3">
+              <p className='text-gray-700 text-md'>{props.info.company.display_name}</p>
+              <p className='mb-3 text-gray-500 text-sm'>{props.info.location.display_name}</p>
+              <div className='mb-3 '>
+              <span>{`£ ${minSalary} - ${maxSalary}  a year`}</span> 
+              <span className='pl-5 uppercase'>{props.info.contract_time}</span>
+            </div>
+            <a href={props.info.redirect_url}  target="_black" className='mt-3 inline-block px-5 py-3 text-base font-medium text-center text-white rounded-full bg-gray-800 hover:bg-opacity-60 focus:ring-4 '>apply now</a>
+            </div>
           <div>
           <div className="job-sub-header justify-between xl:flex 2xl:flex md:flex sm:block  border-y py-7 px-3">
             <div className='job-datails'>
