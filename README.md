@@ -17,6 +17,17 @@ Our intuitive tools allow you to easily apply for jobs, track your applications,
 
 [Live Site](https://jobpathway.netlify.app/)
 
+
+
+https://github.com/RexActor/BootCamp-Project2/assets/144452799/65099c45-bd93-4b85-a057-61ac7c009325
+
+
+
+
+https://github.com/RexActor/BootCamp-Project2/assets/144452799/6303d23f-1d20-430f-a0ae-537dd01ef15b
+
+
+
 ## Requirements
 
 - Node.Js
