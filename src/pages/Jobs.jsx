@@ -11,6 +11,9 @@ const Jobs = () => {
     useEffect(() => {
         setJobCards(state.results);
     }, []);
+    useEffect(() => {
+        document.title = "Pathway-Jobs";
+    }, []);
 
     // Function to reduce the result display for users and enable Load More feature to view more results
     const [noOfCards, setNoOfCards] = useState(10);

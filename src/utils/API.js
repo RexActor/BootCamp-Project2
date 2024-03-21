@@ -1,5 +1,5 @@
 import axios from "axios";
-// console.log("Hello");
+
 const appID = "b9900fa2";
 const apiKey = "546651ec2d56735011331769606df50a";
 const resultsPerPage = 50;
@@ -18,25 +18,25 @@ export default {
     const encodedLocation = encodeURIComponent(location);
     console.log(
       corsURL +
-        baseURL +
-        query +
-        API_KEY +
-        APP_ID +
-        results_amount +
-        "&where=" +
-        encodedLocation +
-        content_type
+      baseURL +
+      query +
+      API_KEY +
+      APP_ID +
+      results_amount +
+      "&where=" +
+      encodedLocation +
+      content_type
     );
     return await axios.get(
       corsURL +
-        baseURL +
-        query +
-        API_KEY +
-        APP_ID +
-        results_amount +
-        "&where=" +
-        encodedLocation +
-        content_type
+      baseURL +
+      query +
+      API_KEY +
+      APP_ID +
+      results_amount +
+      "&where=" +
+      encodedLocation +
+      content_type
     );
   },
 };

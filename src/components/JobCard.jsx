@@ -32,7 +32,6 @@ const JobCard = (props) => {
   }, [showModal]);
   const handleScroll = () => {
     const scrollPosition = window.scrollY; // => scroll position
-    console.log(scrollPosition);
     setScrollPosition(window.scrollY);
   };
   useEffect(() => {
@@ -53,7 +52,7 @@ const JobCard = (props) => {
 
     return duration;
   };
-  // Function to save jobs
+  // Function to save jobs into local storage for saved bookmarks -to be used for enhancement for future development to display saved jobs
   const handleBookmarkClick = (event) => {
     event.stopPropagation();
     const updatedIsBookmarked = !isBookmarked;
