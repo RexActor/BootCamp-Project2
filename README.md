@@ -8,9 +8,9 @@ Our intuitive tools allow you to easily apply for jobs, track your applications,
 
 ## Pathway's Features
 * **Seamless User Experience:** Our application is focused on an intuitive and smooth experience from start to finish enabling you to find your dream job, effortlessly.
-* **Finding Your Perfect Job:** Our search function is powerful enabling you to find jobs based on position, specific keyword, or skillset.
-* **Location made easy:** Our location autocomplete feature and Google Map display make job hunting for your preferred location, a breeze.
-* **Information at Your Fingertip:** Explore job listings on the go with mobile responsive design. Discover salary insight compared to the market and visualize job locations all in one place.
+* **Finding Your Perfect Job:** Our **search** function is powerful, enabling you to find jobs based on *position*, *specific keyword*, or *skillset*.
+* **Location made easy:** Our location **autocomplete** feature and **Location Map** display features make job hunting for your preferred location, a breeze.
+* **Information at Your Fingertip:** Explore job listings on the go with **mobile responsive** design. Discover salary insight compared to the market and visualize job locations all in one place.
 * **Unlock the Power of Salary Insight:** Our in-built salary comparator for each job posting is there to guide you in making informed decisions for your next career move.
 
 ## Deployed Live Site
