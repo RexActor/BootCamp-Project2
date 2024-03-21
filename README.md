@@ -19,12 +19,13 @@ Our intuitive tools allow you to easily apply for jobs, track your applications,
 
 
 
-https://github.com/RexActor/BootCamp-Project2/assets/144452799/65099c45-bd93-4b85-a057-61ac7c009325
+
+https://github.com/RexActor/BootCamp-Project2/assets/144452799/5aeb8bab-4474-4631-bed7-740d1342f9d0
 
 
 
 
-https://github.com/RexActor/BootCamp-Project2/assets/144452799/6303d23f-1d20-430f-a0ae-537dd01ef15b
+https://github.com/RexActor/BootCamp-Project2/assets/144452799/dda4e0be-015e-4af4-b9da-d1cf58ba5103
 
 
 
