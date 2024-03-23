@@ -2,8 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import "../index.css";
 import { useNavigate, useLocation } from "react-router-dom";
 import API from "../utils/API.js";
-
-const { AUTOCOMPLETE_KEY } = process.env;
+import API_Keys from "../utils/APIKeys.js";
 
 function Autocomplete() {
   let canReload = false;
@@ -89,8 +88,7 @@ function Autocomplete() {
     }
   }, [searchData]);
 
-  const apiKey = AUTOCOMPLETE_KEY;
-  // const apiKey = "IOv1oSaJlK-5RRas0SYsM-7vBMmy28kUR0cbu5QIE4k";
+  const apiKey = API_Keys.autoCompleteKey;
 
   const fetchSuggestions = async (query) => {
     try {
