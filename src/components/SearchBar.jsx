@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import "../index.css";
 import { useNavigate, useLocation } from "react-router-dom";
 import API from "../utils/API.js";
+import API_Keys from "../utils/APIKeys.js";
 
 function Autocomplete() {
   let canReload = false;
@@ -29,7 +30,10 @@ function Autocomplete() {
 
   useEffect(() => {
     function handleClickOutside(event) {
-      if (containerRef.current && !containerRef.current.contains(event.target)) {
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(event.target)
+      ) {
         setShowSuggestions(false);
       }
     }
@@ -38,7 +42,7 @@ function Autocomplete() {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, []); 
+  }, []);
 
   const onJobSearchInputChange = (event) => {
     setJobSearchInput(event.target.value);
@@ -84,7 +88,7 @@ function Autocomplete() {
     }
   }, [searchData]);
 
-  const apiKey = "IOv1oSaJlK-5RRas0SYsM-7vBMmy28kUR0cbu5QIE4k";
+  const apiKey = API_Keys.autoCompleteKey;
 
   const fetchSuggestions = async (query) => {
     try {
@@ -116,7 +120,10 @@ function Autocomplete() {
 
   return (
     <section className="text-center bg-gray-100 px-8 sm:px-6">
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-2" ref={containerRef}>
+      <div
+        className="flex flex-col sm:flex-row justify-center items-center gap-2"
+        ref={containerRef}
+      >
         <div className="relative rounded-full bg-white shadow-lg flex sm:flex-grow-0">
           <label className="sr-only" htmlFor="job-search-input">
             Job Title Search

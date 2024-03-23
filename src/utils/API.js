@@ -1,7 +1,10 @@
 import axios from "axios";
+import API_Keys from "./APIKeys";
+// console.log("Hello");
 
-const appID = "b9900fa2";
-const apiKey = "546651ec2d56735011331769606df50a";
+const appID = API_Keys.appID;
+const apiKey = API_Keys.apiKey;
+
 const resultsPerPage = 50;
 
 const corsURL = "https://cors-anywhere-jung-48d4feb9d097.herokuapp.com/";
@@ -18,25 +21,25 @@ export default {
     const encodedLocation = encodeURIComponent(location);
     console.log(
       corsURL +
-      baseURL +
-      query +
-      API_KEY +
-      APP_ID +
-      results_amount +
-      "&where=" +
-      encodedLocation +
-      content_type
+        baseURL +
+        query +
+        API_KEY +
+        APP_ID +
+        results_amount +
+        "&where=" +
+        encodedLocation +
+        content_type
     );
     return await axios.get(
       corsURL +
-      baseURL +
-      query +
-      API_KEY +
-      APP_ID +
-      results_amount +
-      "&where=" +
-      encodedLocation +
-      content_type
+        baseURL +
+        query +
+        API_KEY +
+        APP_ID +
+        results_amount +
+        "&where=" +
+        encodedLocation +
+        content_type
     );
   },
 };
