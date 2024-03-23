@@ -20,9 +20,18 @@ const JobCard = (props) => {
       setShowModal(undefined);
     }
   };
+  useEffect(() => {
+    if (showModal) {
+      document.body.style.overflow = 'hidden';
+      document.body.style.paddingRight = '15px';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+      document.body.style.paddingRight = '0px';
+    };
+  }, [showModal]);
   const handleScroll = () => {
     const scrollPosition = window.scrollY; // => scroll position
-    console.log(scrollPosition);
     setScrollPosition(window.scrollY);
   };
   useEffect(() => {
@@ -43,7 +52,7 @@ const JobCard = (props) => {
 
     return duration;
   };
-  // Function to save jobs
+  // Function to save jobs into local storage for saved bookmarks -to be used for enhancement for future development to display saved jobs
   const handleBookmarkClick = (event) => {
     event.stopPropagation();
     const updatedIsBookmarked = !isBookmarked;

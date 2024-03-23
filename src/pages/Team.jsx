@@ -1,8 +1,13 @@
 import React from 'react';
 import TeamCard from "../components/TeamCard";
 import TeamMembers from "../utils/TeamMembers.json";
+import { useEffect } from 'react';
 
 function Team() {
+  useEffect(() => {
+    document.title = "Pathway-Team";
+  }, []);
+
   return (
     <main id="team-list" className="px-8 py-8 bg-gray-100 text-gray-800">
       <section className="mx-auto max-w-screen-lg flex justify-between items-center">

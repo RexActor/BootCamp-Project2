@@ -23,25 +23,25 @@ export default {
     const encodedLocation = encodeURIComponent(location);
     console.log(
       corsURL +
-        baseURL +
-        query +
-        API_KEY +
-        APP_ID +
-        results_amount +
-        "&where=" +
-        encodedLocation +
-        content_type
+      baseURL +
+      query +
+      API_KEY +
+      APP_ID +
+      results_amount +
+      "&where=" +
+      encodedLocation +
+      content_type
     );
     return await axios.get(
       corsURL +
-        baseURL +
-        query +
-        API_KEY +
-        APP_ID +
-        results_amount +
-        "&where=" +
-        encodedLocation +
-        content_type
+      baseURL +
+      query +
+      API_KEY +
+      APP_ID +
+      results_amount +
+      "&where=" +
+      encodedLocation +
+      content_type
     );
   },
 };
