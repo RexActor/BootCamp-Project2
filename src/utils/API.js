@@ -1,7 +1,12 @@
 import axios from "axios";
 // console.log("Hello");
-const appID = "b9900fa2";
-const apiKey = "546651ec2d56735011331769606df50a";
+
+const { ADZUNA_API_KEY, ADZUNA_APP_ID } = process.env;
+
+// const appID = "b9900fa2";
+const appID = ADZUNA_APP_ID;
+// const apiKey = "546651ec2d56735011331769606df50a";
+const apiKey = ADZUNA_API_KEY;
 const resultsPerPage = 50;
 
 const corsURL = "https://cors-anywhere-jung-48d4feb9d097.herokuapp.com/";
